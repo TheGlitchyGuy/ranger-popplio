@@ -288,7 +288,7 @@ Head to the docks south-east.
   :::
 :::::
 - After leaving the berry field, go north around the backpacker without waiting.
-::info[INSERT GIF]{color=red}
+![Around Backpacker movement](backpacker.gif)
 - *(Use a Repel at the grass if you have not done so before fighting Kaleb earlier. Do not reapply this Repel.)*
 :::dropdown{title="If got flinched by Meowth's Bite" theme="warning"}
 - Grab the Super Potion behind the girl.
@@ -327,7 +327,7 @@ Head to the docks south-east.
 - Small cutscenes will interrupt your movement. 
 - These cutscenes indicate which den to interact with next.
 - Pickup :info[The X-Defense]{color=green} next to the third den.
-::info[INSERT Picture]{color=red}
+![X-Defense Normal Trial](den-xdef.png)
 - Potion if you cannot live two Pounds from Drowzee.
 ::damage[Drowzee's Pound]{source="Popplio" offensive=false movePower=40 level=14 opponentLevel=10 opponentStat=15}
 
@@ -372,10 +372,10 @@ Head to the docks south-east.
 :info[**FREE HEAL**]{color=pink}
 
 - Leave the Totem’s area.
-- Go to the right. :info[INSERT GIF]{color=red}
+- Go to the right. 
 - Cross the bridge.
 - Reapply the Repel after the tutorial.
-- Head to Melemele Meadows.
+- Head to Melemele Meadows. ![Route 3 Movement](route3.gif)
 - Reach Nebby.
 - Reapply your Repel in the Meadows.
 
@@ -384,6 +384,9 @@ Head to the docks south-east.
     - X Sp. Atk
     - Water Gun + Aqua Jet
   :::
+
+[add damage tables for lick and ember.]: # 
+
   :::pokemon[Litten]
     - *Aqua Jet / *Water Gun / Water Gun
   :::
@@ -392,7 +395,7 @@ Head to the docks south-east.
 :info[**FREE HEAL**]{color=pink}
 - Head south.
 - Cross the bridge.
-- Head south to Route 1. :info[INSERT GIF]{color=red}
+- Head south to Route 1. ![to route 1](growlithetrainer.gif)
 - **Equip Oran Berry.**
 - Reapply the Repel on Route 1
 - Head to Iki Town.
