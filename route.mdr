@@ -198,7 +198,9 @@ Head to Route 1 to the right of your house.
 :::if{source="Popplio" condition="spatk=(0+ / 0-22 / 0-4) && speed=(29+ / 10+ / 1+)"}
 - **Skip heal at Lillie before Teacher Emily:info[ONLY IF YOU DON'T GET KILLED BY THUNDER SHOCK]{color=red}.**
 :::
-
+:::if{source="Popplio" condition="spatk!=(0+ / 0-22 / 0-4) && speed=(29+ / 10+ / 1+)"}
+- info:[Heal at Lillie]{color=pink}
+:::
 :::::trainer[Teacher Emily]
   :::pokemon[Magnemite]
     ::damage[Magnemite's Thundershock]{source="Popplio" offensive=false special=true movePower=40 effectiveness=2 stab=true level=11 opponentLevel=8 opponentStat=21}
