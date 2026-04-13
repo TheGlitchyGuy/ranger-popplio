@@ -184,6 +184,7 @@ Head to Route 1 to the right of your house.
   :::pokemon[Grimer]
     - Water Gun x3
     - :info[If Bad SpD: Stall/Poison to enter Torrent range.]{color=gray}
+    - :debug[add conditional picture of the manipulation table and everything until figurin out this bs]
   :::
 :::::
 
@@ -384,9 +385,7 @@ Head to the docks south-east.
     - X Sp. Atk
     - Water Gun + Aqua Jet
   :::
-
-[add damage tables for lick and ember.]: # 
-
+:debug[Add lick and ember's damage tables]
   :::pokemon[Litten]
     - *Aqua Jet / *Water Gun / Water Gun
   :::
