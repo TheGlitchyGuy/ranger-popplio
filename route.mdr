@@ -422,7 +422,7 @@ Head to the docks south-east.
     - X Sp. Atk :info[(can skip it if (x / 18+ / 6+) and willing to go for the 13/16 range on Crabrawler(100% at (x / 25+ / 12+))]{color=gray}
     - *Water Gun / Disarming Voice
     ::damage[*Water Gun AT +4]{source="Popplio" special=true movePower=40 level=17 torrent=true stab=true statModifier=4 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
-    ::damage[Disarming Voice AT +4]{source="Popplio" special=true movePower=40 level=17 torrent=true statModifier=4 effectiveness=2 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
+    ::damage[Disarming Voice AT +4]{source="Popplio" special=true movePower=40 level=17 statModifier=4 effectiveness=2 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
   :::
   :::pokemon[Crabrawler]
     - *Water Gun / Disarming Voice
