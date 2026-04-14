@@ -114,7 +114,7 @@ If didn't already, check Popplio's level 5 stats at the level up screen and then
 Your Popplio's defense is low. This may cause the run to be more difficult; consider resetting.
 :::
 
-:info[**Free heal**]{color=pink}
+:info[**FREE HEAL**]{color=pink}
 
 Head to Route 1 to the right of your house.
 
@@ -195,10 +195,10 @@ Head to Route 1 to the right of your house.
   :::
 :::::
 
-:::if{source="Popplio" condition="spatk=(0+ / 0-22 / 0-4) && speed=(29+ / 10+ / 1+) && spdef=(16+/x/x)"}
+:::if{source="Popplio" condition="spatk=(0+ / 0-22 / 0-4) && speed=(29+ / 10+ / 1+) && spdef=(16+/#/#)"}
 - **Skip :info[heal at Lillie]{color=pink} before Teacher Emily:info[ONLY IF YOU DON'T GET KILLED BY THUNDER SHOCK]{color=red}.**
 :::
-:::if{source="Popplio" condition="spatk=(x / 23+ / 5+) && spdef=(16+/x/x) || speed=(28- / 9- / 0) && spdef=(16+/x/x)"}
+:::if{source="Popplio" condition="spatk=(x / 23+ / 5+) && spdef=(16+/#/#) || speed=(28- / 9- / 0) && spdef=(16+/#/#)"}
 - :info[Heal at Lillie]{color=pink}
 :::
 :::::trainer[Teacher Emily]
