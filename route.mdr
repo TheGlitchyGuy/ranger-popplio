@@ -198,7 +198,7 @@ Head to Route 1 to the right of your house.
 :::if{source="Popplio" condition="spatk=(0+ / 0-22 / 0-4) && speed=(29+ / 10+ / 1+)"}
 - **Skip heal at Lillie before Teacher Emily:info[ONLY IF YOU DON'T GET KILLED BY THUNDER SHOCK]{color=red}.**
 :::
-:::if{source="Popplio" condition="spatk!=(0+ / 0-22 / 0-4) && speed=(29+ / 10+ / 1+)"}
+:::if{source="Popplio" condition="spatk=(x / 23+ / 5+) || speed=(28- / 9- / 0)"}
 - info:[Heal at Lillie]{color=pink}
 :::
 :::::trainer[Teacher Emily]
