@@ -196,7 +196,7 @@ Head to Route 1 to the right of your house.
 :::::
 
 :::if{source="Popplio" condition="spatk=(0+ / 0-22 / 0-4) && speed=(29+ / 10+ / 1+)"}
-- **Skip :info[heal at Lillie]{color=pink}before Teacher Emily:info[ONLY IF YOU DON'T GET KILLED BY THUNDER SHOCK]{color=red}.**
+- **Skip :info[heal at Lillie]{color=pink} before Teacher Emily:info[ONLY IF YOU DON'T GET KILLED BY THUNDER SHOCK]{color=red}.**
 :::
 :::if{source="Popplio" condition="spatk=(x / 23+ / 5+) || speed=(28- / 9- / 0)"}
 - :info[Heal at Lillie]{color=pink}
@@ -440,7 +440,7 @@ Head to the docks south-east.
       +4 *Water Gun: 	13 / 16 (x / 18 - 24 / 6 - 11)	100% (x / 25+ / 12+)]{color=red} 
   :::
 :::::
-
+**You are evolving after this battle, so make sure to not mash B.**
 :info[**FREE HEAL**]{color=pink}   
 
 - Quick bind Tauros to a D-Pad button.
@@ -450,3 +450,5 @@ Head to the docks south-east.
 - Use the Repel.
 - *(You will be reapplying this Repel 5 times)*
 - Take the boat to Akala Island.
+
+## Akala Island
