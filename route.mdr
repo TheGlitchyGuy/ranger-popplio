@@ -185,8 +185,9 @@ Head to Route 1 to the right of your house.
     - Water Gun x3
     :::if{source="Popplio" condition="spdef=(0-15/x/x)"}
     - If you have 15 or 16 Sp. Def (0 - 15 / x / x), Magnemite will almost always kill you in two hits.
-
-    - In order to prevent this, we will attempt to kill it in two hits first. Follow the instructions in the table below to get knocked into Torrent by Magnemite with one Thunder Shock.
+    - Stall until you reach one of the following HP thresholds:
+    ![Stall Hp Thresholds on Grimer](stall-grimer.png)
+    -Now, we will attempt to kill it in two hits first. Follow the instructions in the table below to get knocked into Torrent by Magnemite with one Thunder Shock
     ![TORRENT MANIPULATION CHART](grimer-chart.png)
       :::if{source="Popplio" condition="speed=(19-28 / 9- / 0)"}
       - You may use a Rare Candy to increase your chances to win(use it).
