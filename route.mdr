@@ -253,7 +253,7 @@ Head to the docks south-east.
   :::::
   :::::pokemon[Smeargle]
     ::damage[Leafage]{source="Popplio" offensive=false movePower=40 effectiveness=2 level=12 opponentLevel=10 opponentStat=18 opponentStatModifier=1.5 combatStages=0--5}
-    - Torrent at level 10 is less than:calc[floor(hp / 3)]{source="Popplio" level=10} HP
+    - Torrent at level 12 is less than:calc[floor(hp / 3)]{source="Popplio" level=12} HP
     - :variable{name="torrent" type="boolean" title="Are you currently in Torrent?"}
     :::if{source="Popplio" condition="$torrent"}
        - *Water Gun(+*Water Gun)
