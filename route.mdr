@@ -404,7 +404,7 @@ Head to the docks south-east.
 :::if{source="Popplio" condition="spatk=(x / 18-29 / 3-8 )" }
 :::card{theme=info}
 
-Decide whether to go for:info[High Exp]{color=green} or :info[Low Exp]{color=blue} strats.
+Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=blue} strats.
 
 ----
 
@@ -415,11 +415,14 @@ Decide whether to go for:info[High Exp]{color=green} or :info[Low Exp]{color=blu
 - It is recommended to always go for High Exp when your Sp. Atk is (# / 8 - 17 / 0 - 2) or is (x / 30+ / 9+)
 :info[The calc will automatically show you High exp if in this IVs ranges]{color=gray}
 
-::variable{name="isLowExp" type="boolean" title="Are you going for Low Exp ?(High is recommended)" defaultValue="false"}
+::variable{name="isLowExp" type="boolean" title="Are you going for Low Exp ?(Not recommended)" defaultValue="false"}
 :::
 
 :::if{source="Popplio" condition=!$isLowExp}
 :::card{theme=warning}
+  ::damage[Litten's Lick]{source="Popplio" offensive=false special=false movePower=30 level=16 opponentLevel=14 opponentStat=25}
+
+
   :::::trainer[Hau 3 (High Exp)]
     :::pokemon[Pikachu]
     - X Sp. Atk
@@ -427,6 +430,16 @@ Decide whether to go for:info[High Exp]{color=green} or :info[Low Exp]{color=blu
     :::
     :::pokemon[Litten]
     - *Aqua Jet / *Water Gun / Water Gun
+    :::
+:::::
+
+:::if{source="Popplio" condition=$isLowExp}
+:::card{theme=info}
+  :::::trainer[Hau 3 (Low Exp)]
+    :::pokemon[Pikachu]
+    - Aqua Jet
+    - Aqua Jet again if not paralysed yet and if Aqua Jet won’t kill Pikachu.
+    - Spam Growl until fainted
     :::
 :::::
 
