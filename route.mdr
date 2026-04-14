@@ -199,7 +199,7 @@ Head to Route 1 to the right of your house.
 - **Skip heal at Lillie before Teacher Emily:info[ONLY IF YOU DON'T GET KILLED BY THUNDER SHOCK]{color=red}.**
 :::
 :::if{source="Popplio" condition="spatk=(x / 23+ / 5+) || speed=(28- / 9- / 0)"}
-- info:[Heal at Lillie]{color=pink}
+- :info[Heal at Lillie]{color=pink}
 :::
 :::::trainer[Teacher Emily]
   :::pokemon[Magnemite]
