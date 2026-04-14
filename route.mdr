@@ -418,14 +418,11 @@ Decide whether to go for:info[High Exp]{color=green} or :info[Low Exp]{color=blu
 ----
 :::
 
+::variable{name="isLowExp" type="boolean" defaultValue="false"}
 
 
-
-
-
-
-
-:::card{theme=success}
+:::if{source="Popplio" condition=!$isLowExp}
+:::card{theme=warning}
   :::::trainer[Hau 3 (High Exp)]
     :::pokemon[Pikachu]
     - X Sp. Atk
