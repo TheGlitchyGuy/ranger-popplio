@@ -426,14 +426,14 @@ Decide whether to go for:info[High Exp]{color=green} or :info[Low Exp]{color=blu
 
 
 :::card{theme=success}
-:::::trainer[Hau 3 (High Exp)]
-  :::pokemon[Pikachu]
+  :::::trainer[Hau 3 (High Exp)]
+    :::pokemon[Pikachu]
     - X Sp. Atk
     - Water Gun + Aqua Jet
-  :::
-  :::pokemon[Litten]
+    :::
+    :::pokemon[Litten]
     - *Aqua Jet / *Water Gun / Water Gun
-  :::
+    :::
 :::::
 :::
 
