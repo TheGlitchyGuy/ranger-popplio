@@ -411,8 +411,8 @@ Head to the docks south-east.
 
 ::damage[Karate Chop]{source="Popplio" offensive=false movePower=50 stab=true level=16 opponentLevel=14 opponentStat=34}
 ::damage[K-Chop Crit]{source="Popplio" offensive=false movePower=75 stab=true level=16 opponentLevel=14 opponentStat=34}
-::damage[Fake Out]{source="Popplio" offensive=false movePower=40 level=16 opponentLevel=14 opponentStat=28}
-::damage[1 Hit Arm Thrust]{source="Popplio" offensive=false movePower=15 stab=true level=16 opponentLevel=14 opponentStat=28}
+::damage[Fake Out]{source="Popplio" offensive=false movePower=40 level=76 opponentLevel=14 opponentStat=28}
+::damage[1 Hit Arm Thrust]{source="Popplio" offensive=false movePower=15 stab=true level=17 opponentLevel=14 opponentStat=28}
 
 
 :::::trainer[Island Kahuna Hala]
