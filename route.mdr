@@ -446,8 +446,7 @@ Decide whether to go for:info[High Exp]{color=green} or :info[Low Exp]{color=blu
 
 
 ::damage[Karate Chop]{source="Popplio" offensive=false movePower=50 stab=true level=16 opponentLevel=14 opponentStat=34}
-::damage[K-Chop Crit]{source="Popplio" offensive=false movePower=50 stab=true level=16 opponentLevel=14 opponentStat=34 opponentStatModifier=1.5}
-- proff
+::damage[K-Chop Crit]{source="Popplio" opponentNature=Adamant offensive=false movePower=50 stab=true level=16 opponentLevel=14 opponentStat=34 opponentStatModifier=1.5}
 ::damage[Fake Out]{source="Popplio" offensive=false movePower=40 level=17 opponentLevel=14 opponentStat=28}
 ::damage[1 Hit Arm Thrust]{source="Popplio" offensive=false movePower=15 stab=true level=17 opponentLevel=14 opponentStat=28}
 
