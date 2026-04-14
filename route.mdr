@@ -361,8 +361,8 @@ Head to the docks south-east.
   :::
 :::::
 
-- If you are in :info[red health]{color=red}, use a :info[Super Potion]{color=purple}
-- If you are in :info[yellow health]{color=yellow}, use a :info[Potion]{color=blue}
+- If you are in:info[red health]{color=red}, use a:info[Super Potion]{color=pink}
+- If you are in:info[yellow health]{color=yellow}, use a:info[Potion]{color=blue}
 
 :::::trainer[Raticate]
    :::pokemon[Raticate]
@@ -381,7 +381,7 @@ Head to the docks south-east.
 
 :::::trainer[Totem Raticate : heal as needed]
   :::pokemon[Totem Raticate]
-    - :info[If stuck in a heal loop, you may use an X Defense]{color=blue}
+    - :info[If stuck in a heal loop, you may use an X Defense]{color=red}
     - X Sp. Atk
     - Disarming Voice Rattata and Raticate
     - Disarming Voice (Water Gun if Disarming Voice did more than half)
