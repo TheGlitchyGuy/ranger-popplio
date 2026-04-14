@@ -400,6 +400,54 @@ Head to the docks south-east.
 - Reach Nebby.
 - Reapply your Repel in the Meadows.
 
+
+
+:::card{theme=info}
+
+Decide whether to go for:info[High Exp]{color=green} or :info[Low Exp]{color=blue} strats.
+
+----
+
+- High Experience is overall more consistent, but might be slower in some instances. Going for High Experience can have a positive impact until the end of the game. It’s generally recommended to go for High Experience.
+- **Note that if you die to Hau 3 or Hau 4 while trying to go for High Exp, you will have to fallback to Low Exp.**
+
+----
+- It is recommended to always go for High Exp when your Sp. Atk is (# / 8 - 17 / 0 - 2) or is (x / 30+ / 9+)
+:info[The calc will automatically show you High exp if in this IVs ranges]{color=gray}
+
+----
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 :::::trainer[Hau 3]
   :::pokemon[Pikachu]
     - X Sp. Atk
