@@ -381,7 +381,7 @@ Head to the docks south-east.
 
 :::::trainer[Totem Raticate : heal as needed]
   :::pokemon[Totem Raticate]
-    - :info[If stuck in a heal loop, you may use an X Defense]{color=red}
+    - :info[If stuck in a heal loop, you may use an X Defense]{color=blue}
     - X Sp. Atk
     - Disarming Voice Rattata and Raticate
     - Disarming Voice (Water Gun if Disarming Voice did more than half)
