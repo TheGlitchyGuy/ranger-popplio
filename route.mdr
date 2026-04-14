@@ -401,7 +401,7 @@ Head to the docks south-east.
 - Reapply your Repel in the Meadows.
 
 
-:::if{source="Popplio" condition="spatk=(x/ 18-9 / 3-8 )" }
+:::if{source="Popplio" condition="spatk=(x / 18-29 / 3-8 )" }
 :::card{theme=info}
 
 Decide whether to go for:info[High Exp]{color=green} or :info[Low Exp]{color=blue} strats.
@@ -449,12 +449,11 @@ Decide whether to go for:info[High Exp]{color=green} or :info[Low Exp]{color=blu
 
 
 :::card{theme=success}
-:::::trainer[Hau 3]
+:::::trainer[Hau 3 (High Exp)]
   :::pokemon[Pikachu]
     - X Sp. Atk
     - Water Gun + Aqua Jet
   :::
-:debug[Add lick and ember's damage tables]
   :::pokemon[Litten]
     - *Aqua Jet / *Water Gun / Water Gun
   :::
