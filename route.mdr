@@ -140,6 +140,8 @@ Head to Route 1 to the right of your house.
   :::
 :::::
 
+:info[**FREE HEAL**]{color=pink}
+
 * **Refresh:** Pet (2 beans, 3 pets) before entering Pokémon Center.
 
 :::if{source="Popplio" condition="spdef=10-11" level=7}
@@ -220,6 +222,8 @@ Enter the Pokémon Centre
 
 ## Hau'oli City
 
+:info[**FREE HEAL**]{color=pink}
+
 ### Shopping
 :::if{source="Popplio" condition="spdef=12+" level=7}
 > #### Left Vendor
@@ -239,6 +243,8 @@ Head to the docks south-east.
     - Water Gun x2
   :::
 :::::
+
+:info[**FREE HEAL**]{color=pink}
 
 :::::::trainer[Captain Ilima]
   :::::pokemon[Yungoos]
@@ -291,6 +297,8 @@ Head to the docks south-east.
      ::damage[Water Gun out of Torrent]{source="Popplio" special=true movePower=40 level=13 stab=true opponentLevel=8 opponentStat=9 healthThreshold=24 theme=error}   
   :::::
 :::::::
+
+:info[**FREE HEAL**]{color=pink}
 
 :::::trainer[Team Skull Grunt]
   :::pokemon[Drowzee]
@@ -352,6 +360,9 @@ Head to the docks south-east.
        ::damage[Popplio's Pound]{source="Popplio" special=false movePower=40 level=14 opponentLevel=10 opponentStat=28}  
   :::
 :::::
+
+- If you are in :info[red health]{color=red}, use a :info[Super Potion]{color=purple}
+- If you are in :info[yellow health]{color=yellow}, use a :info[Potion]{color=Blue}
 
 :::::trainer[Raticate]
    :::pokemon[Raticate]
@@ -441,7 +452,7 @@ Head to the docks south-east.
   :::
 :::::
 **You are evolving after this battle, so make sure to not mash B.**
-- :info[**FREE HEAL**]{color=pink}   
+:info[**FREE HEAL**]{color=pink}   
 
 - Quick bind Tauros to a D-Pad button.
 - Mount Tauros from the Ride Pager menu.
