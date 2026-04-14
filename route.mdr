@@ -415,11 +415,8 @@ Decide whether to go for:info[High Exp]{color=green} or :info[Low Exp]{color=blu
 - It is recommended to always go for High Exp when your Sp. Atk is (# / 8 - 17 / 0 - 2) or is (x / 30+ / 9+)
 :info[The calc will automatically show you High exp if in this IVs ranges]{color=gray}
 
-----
+::variable{name="isLowExp" type="boolean" title="Are you going for Low Exp ?(High is recommended)" defaultValue="false"}
 :::
-
-::variable{name="isLowExp" type="boolean" defaultValue="false"}
-
 
 :::if{source="Popplio" condition=!$isLowExp}
 :::card{theme=warning}
