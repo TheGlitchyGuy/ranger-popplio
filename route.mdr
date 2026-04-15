@@ -257,7 +257,7 @@ Head to the docks south-east.
     :::if{source="Popplio" condition="spatk=(x / x / 18+)"}
     - Disarming Voice + Water Gun
     :::
-    :::if{source="Popplio" condition="spatk=(x / x / 17-)"}
+    :::if{source="Popplio" condition="spatk=( # / # / 17-)"}
     - Water Gun x2
     :::
   :::::
@@ -348,7 +348,7 @@ Head to the docks south-east.
 - Cross the bridge.
 - Small cutscenes will interrupt your movement. 
 - These cutscenes indicate which den to interact with next.
-- Pickup :info[The X-Defense]{color=green} next to the third den.
+- Pickup :info[the X-Defense]{color=green} next to the third den.
 ![X-Defense Normal Trial](den-xdef.png)
 - Potion if you cannot live two Pounds from Drowzee.
 ::damage[Drowzee's Pound]{source="Popplio" offensive=false movePower=40 level=14 opponentLevel=10 opponentStat=15}
@@ -361,7 +361,7 @@ Head to the docks south-east.
     ::damage[Water Gun out of Torrent]{source="Popplio" special=true movePower=40 level=14 stab=true opponentLevel=11 opponentStat=24}  
     ::damage[Water Gun in Torrent]{source="Popplio" special=true movePower=40 level=14 stab=true torrent=true opponentLevel=11 opponentStat=24}  
     :::if{source="Popplio" condition="atk=(x / 21+ / 7 - 20)"}
-       ::damage[Popplio's Pound]{source="Popplio" special=false movePower=40 level=14 opponentLevel=10 opponentStat=28}  
+       ::damage[Popplio's Pound]{source="Popplio" special=false movePower=40 level=14 opponentLevel=10 opponentStat=14}  
   :::
 :::::
 
