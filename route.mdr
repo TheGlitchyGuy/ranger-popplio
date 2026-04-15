@@ -542,3 +542,28 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 ## Akala Island
 
+- Picking the second option when Hau talks is a bit faster
+- Get the Rare Candy from the old lady.
+- Reapply the Repel before battling Sina
+
+:::::trainer[Pokémon Trainer Sina]
+  :::pokemon[Delibird]
+   - X-Sp. Atk x2 + Water Gun
+  :::
+  :::pokemon[Glaceon]  
+  - Water Gun x2
+  :::
+  :::if{source="Popplio" condition="$isLowExp" theme="info"}
+  - → If you have 23 Speed at level 18, you will need to pickup the Carbos later.
+  :::
+  :::if{source="Popplio" condition="!$isLowExp" theme="warning"}
+  - → Teach Encore over Disarming Voice (Slot 4).
+  :::
+:::::
+
+:info[**FREE HEAL**]{color=pink}
+
+
+
+
+
