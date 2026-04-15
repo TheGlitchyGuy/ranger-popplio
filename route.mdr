@@ -610,9 +610,9 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
     :::pokemon[Zubat]{info="Faster without X-Speed at 29+ Speed (x / 30+ / 19+)" infoColor=blue}
     - X-Sp. Atk x2
     - X-Speed
-    :::if{source="Popplio" condition="speed=(x/30+/19+)
-    -   → Skip X-Speed if 29+ Speed and can survive two Tackles
-    :::
+      :::if{source="Popplio" condition="speed=(x/30+/19+)
+      -   → Skip X-Speed if 29+ Speed and can survive two Tackles
+      :::
     - Potion if you cannot live a Tackle from Type: Null.
     - Water Gun
     :::
