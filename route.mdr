@@ -486,12 +486,12 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
     - X Sp. Atk :info[(can skip it if (x / 18+ / 6+) and willing to go for the 13/16  *WG range on Crabrawler(100% at (x / 25+ / 12+))]{color=gray}
     - *Water Gun / Disarming Voice
     
-    :::if{source="Popplio" condition=!$isLowExp && spatk="(x / 18+ / 6+)"}
+    :::if{source="Popplio" condition="!$isLowExp && spatk=(x / 18+ / 6+)"}
       ::damage[*Water Gun AT +4 (Lvl 17)]{source="Popplio" special=true movePower=40 level=17 torrent=true stab=true statModifier=4 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
       ::damage[Disarming Voice AT +4 (Lvl 17)]{source="Popplio" special=true movePower=40 level=17 statModifier=4 effectiveness=2 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
     :::
     
-    :::if{source="Popplio" condition=$isLowExp && spatk="(x / 18+ / 6+)"}
+    :::if{source="Popplio" condition="$isLowExp && spatk=(x / 18+ / 6+)"}
       ::damage[*Water Gun AT +4 (Lvl 16)]{source="Popplio" special=true movePower=40 level=16 torrent=true stab=true statModifier=4 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
       ::damage[Disarming Voice AT +4 (Lvl 16)]{source="Popplio" special=true movePower=40 level=16 statModifier=4 effectiveness=2 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
     :::  
