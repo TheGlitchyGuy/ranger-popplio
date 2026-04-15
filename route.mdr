@@ -182,7 +182,7 @@ Head to Route 1 to the right of your house.
 :::::
 - Potion if got damaged multiple times
 
-::damage[Grimer's Bite]{source="Popplio" offensive=false special=false movePower=40 effectiveness=2 stab=true level=11 opponentLevel=8 opponentStat=21}
+::damage[Grimer's Bite]{source="Popplio" offensive=false special=false movePower=60 stab=true level=10 opponentLevel=8 opponentStat=18}
 :::::trainer[Rising Star Joseph]
   :::pokemon[Grimer]
     - Water Gun x3
@@ -211,7 +211,7 @@ Head to Route 1 to the right of your house.
 :::
 :::::trainer[Teacher Emily]
   :::pokemon[Magnemite]
-    ::damage[Magnemite's Thundershock]{source="Popplio" offensive=false special=true movePower=60 stab=true level=11 opponentLevel=8 opponentStat=18}
+    ::damage[Magnemite's Thundershock]{source="Popplio" offensive=false special=true movePower=40 stab=true level=11 opponentLevel=8 opponentStat=21}
     - Water Gun x2-3
   :::
   :::pokemon[Meowth (heal as needed)]
