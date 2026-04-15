@@ -404,7 +404,7 @@ Head to the docks south-east.
 - Reach Nebby.
 - Reapply your Repel in the Meadows.
 
-:::if{source="Popplio" condition="spatk!=(x / 18-29 / 3-8 )" }
+:::if{source="Popplio" condition="spatk=(x / 17- / 2- ) || spatk=(x / 30+ / 10+ )" }
 :::dropdown{title="If you wanna know why you have High Exp and/or understand High VS Low Exp" theme="info"}
 :::card{theme=info}
 
@@ -421,7 +421,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 ::variable{name="isLowExp" type="boolean" title="Are you going for Low Exp ?(Not recommended)" defaultValue="false"}
 :::
-:::
+
 
 :::if{source="Popplio" condition="spatk=(x / 18-29 / 3-8 )" }
 :::card{theme=info}
