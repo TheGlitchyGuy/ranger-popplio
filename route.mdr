@@ -432,6 +432,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
     :::pokemon[Litten]
     - *Aqua Jet / *Water Gun / Water Gun
     :::
+   ::variable{name="isLowExp" type="boolean" title="Did you	die in this fight ? ?" defaultValue="false"}
 :::::
 
 :::if{source="Popplio" condition=$isLowExp}
@@ -455,11 +456,17 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 ::damage[Karate Chop]{source="Popplio" offensive=false movePower=50 stab=true level=16 opponentLevel=14 opponentStat=34}
 ::damage[K-Chop Crit]{source="Popplio" opponentNature=Adamant offensive=false movePower=50 stab=true level=16 opponentLevel=14 opponentStat=34 criticalHit=true}
-::damage[Fake Out]{source="Popplio" offensive=false movePower=40 level=17 opponentLevel=14 opponentStat=28}
-::damage[1 Hit Arm Thrust]{source="Popplio" offensive=false movePower=15 stab=true level=17 opponentLevel=14 opponentStat=28}
+:::if{source="Popplio" condition=!$isLowExp}
+  ::damage[Fake Out]{source="Popplio" offensive=false movePower=40 level=17 opponentLevel=14 opponentStat=28}
+  ::damage[1 Hit Arm Thrust]{source="Popplio" offensive=false movePower=15 stab=true level=17 opponentLevel=14 opponentStat=28}
+:::
 
+:::if{source="Popplio" condition=$isLowExp}
+  ::damage[Fake Out]{source="Popplio" offensive=false movePower=40 level=16 opponentLevel=14 opponentStat=28}
+  ::damage[1 Hit Arm Thrust]{source="Popplio" offensive=false movePower=15 stab=true level=16 opponentLevel=14 opponentStat=28}
+:::
 
-:::::trainer[Island Kahuna Hala]
+:::::trainer[**Island Kahuna Hala**]
   :::pokemon[Mankey]
     :::if{source="Popplio" condition="speed=19+" level=16}
     - X Speed
@@ -474,9 +481,16 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
     :::
     - X Sp. Atk :info[(can skip it if (x / 18+ / 6+) and willing to go for the 13/16 range on Crabrawler(100% at (x / 25+ / 12+))]{color=gray}
     - *Water Gun / Disarming Voice
-    ::damage[*Water Gun AT +4]{source="Popplio" special=true movePower=40 level=17 torrent=true stab=true statModifier=4 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
-    ::damage[Disarming Voice AT +4]{source="Popplio" special=true movePower=40 level=17 statModifier=4 effectiveness=2 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
+    :::if{source="Popplio" condition=!$isLowExp}
+      ::damage[*Water Gun AT +4]{source="Popplio" special=true movePower=40 level=17 torrent=true stab=true statModifier=4 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
+      ::damage[Disarming Voice AT +4]{source="Popplio" special=true movePower=40 level=17 statModifier=4 effectiveness=2 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
+    :::
+    
+    :::if{source="Popplio" condition=!$isLowExp}
+      ::damage[*Water Gun AT +4]{source="Popplio" special=true movePower=40 level=16 torrent=true stab=true statModifier=4 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
+      ::damage[Disarming Voice AT +4]{source="Popplio" special=true movePower=40 level=16 statModifier=4 effectiveness=2 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
   :::
+
   :::pokemon[Crabrawler]
     - *Water Gun / Disarming Voice
     -    :info[→ Disarming Voice cannot miss if Sand Attacked.]{color=pink}
