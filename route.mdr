@@ -583,6 +583,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 :::if{source="Popplio" condition=$isLowExp}
 :::card{theme=info}
+  
   :::::trainer[Hau 3 (Low Exp)]
     :::pokemon[Pikachu]
     - Aqua Jet
@@ -598,8 +599,28 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Avoid getting stuck behind the sign. ![Gentleman](gentleman.gif)
 - *Pickup Hidden Power (read section below) (TBD)*.
 - Charge right around the Gentleman.
-
 - The double battles on Route 5 cannot see you, because you only have Brionne in your party.
 
-::damage[Type Null's Tackle (Lvl 18)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true level=18 opponentLevel=18 opponentStat=44}
-::damage[Type Null's Tackle (Lvl 20)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true level=20 opponentLevel=18 opponentStat=44}
+:::if{source="Popplio" condition=$isLowExp}
+:::card{theme=info}
+
+::damage[Type: Null's Tackle (Lvl 18)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true level=18 opponentLevel=18 opponentStat=44}
+  
+  :::::trainer[Gladion (Low Exp)]
+    :::pokemon[Zubat]{info="Faster without X-Speed at 29+ Speed (x / 30+ / 19+)" infoColor=blue}
+    - X-Sp. Atk x2
+    - X-Speed
+    :::if{source="Popplio" condition="speed=(x/30+/19+)
+    -   → Skip X-Speed if 29+ Speed and can survive two Tackles
+    :::
+    - Potion if you cannot live a Tackle from Type: Null.
+    - Water Gun
+    :::
+    :::pokemon[Type: Null]
+    - Water Gun + *Water Gun(+ *Aqua Jet)
+    ::damage[Ranges to 2HKO]{source="Popplio" evolution=1 offensive=true special=true movePower=40 torrent=true stab=true level=18 opponentLevel=18 opponentStat=44}
+:::::
+
+
+
+::damage[Type: Null's Tackle (Lvl 20)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true level=20 opponentLevel=18 opponentStat=44}
