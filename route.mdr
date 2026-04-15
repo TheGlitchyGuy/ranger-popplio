@@ -212,7 +212,7 @@ Head to Route 1 to the right of your house.
 :::::trainer[Teacher Emily]
   :::pokemon[Magnemite]
     ::damage[Magnemite's Thundershock]{source="Popplio" offensive=false special=true effectiveness=2 movePower=40 stab=true level=11 opponentLevel=8 opponentStat=21}
-    - Water Gun x2-3
+    - Water Gun x2-3 tyest
   :::
   :::pokemon[Meowth (heal as needed)]
     - :info[Always slower]{color=blue}
