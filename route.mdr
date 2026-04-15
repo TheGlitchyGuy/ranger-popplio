@@ -559,10 +559,45 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   :::if{source="Popplio" condition="!$isLowExp" theme="warning"}
      Teach Encore over Disarming Voice (Slot 4).
   :::
-:::::
-er
+:::::   
+
 :info[**FREE HEAL**]{color=pink}
 
+- Head to Paniola Town.
+- Reapply the Repel before the cook.
+- *Should you hit the cook, defeat his Cutiefly with Water Gun + Aqua Jet.* ![Cook Mouvement](cook.gif)
+
+:::if{source="Popplio" condition=!$isLowExp}
+:::card{theme=warning}
+  
+  :::::trainer[Hau 4 (High Exp)]
+    :::pokemon[Pikachu]
+    - X-Speed **THEN** X-Sp.Atk :info[*This order is important because Electro ball deals less damage the faster you are*]{color=gray}
+    - Water Gun(+Water Gun)
+    :::
+    :::pokemon[Torracat]
+    - Water Gun
+    :::
+   ::variable{name="isLowExp" type="boolean" title="Did you	die in this fight ? ?" defaultValue="false"}
+:::::
+
+:::if{source="Popplio" condition=$isLowExp}
+:::card{theme=info}
+  :::::trainer[Hau 3 (Low Exp)]
+    :::pokemon[Pikachu]
+    - Aqua Jet
+    - Aqua Jet again if not paralysed yet and if Aqua Jet won’t kill Pikachu.
+    - Spam Growl until fainted
+    :::
+:::::
+
+:info[**FREE HEAL**]{color=pink}
+
+- After the Miltank cutscene, head south.
+- Reapply the Repel.
+- Avoid getting stuck behind the sign. !info[Gentleman](gentleman.gif)
+- *Pickup Hidden Power (read section below) (TBD)*.
+- Charge right around the Gentleman.
 
 
 
