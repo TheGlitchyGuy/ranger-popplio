@@ -217,7 +217,9 @@ Head to Route 1 to the right of your house.
   :::pokemon[Meowth (heal as needed)]
     - :info[Always slower]{color=blue}
      ::damage[Meowth's Bite]{source="Popplio" offensive=false special=false movePower=60 stab=true level=11 opponentLevel=9 opponentStat=12}
+    :::if{source="Popplio" condition="spdef=(0-15/x/x)"}
     - *Antidote if poisoned.*
+    :::
     - *Water Gun x2 / Disarming Voice x2
   :::
 :::::
@@ -285,7 +287,7 @@ Head to the docks south-east.
 
 :::if{source="Popplio" condition="speed=(0 - 26 / 0 - 11 / 0 - 3)"}
 - If you are dead to Peck, do the following
-- **Before Kaleb:** Open Bag -> Potion + Repel (Do not reapply).
+- **Before Kaleb:** Open Bag -> Potion, Repel (Do not reapply) and disable Exp.Share.
 :::   
 
 
@@ -381,7 +383,7 @@ Head to the docks south-east.
 - Heal to full with Potions.
 - Use a Repel.
 -   → Say yes to reapplying this Repel 3 times after this point.
-- Disable Experience Share.
+- Disable Experience Share(if didn't already).
 - Leave the bag on the Berry menu for Hala later
 - Save the game if playing it safely.
 
