@@ -486,7 +486,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
       ::damage[Disarming Voice AT +4]{source="Popplio" special=true movePower=40 level=17 statModifier=4 effectiveness=2 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
     :::
     
-    :::if{source="Popplio" condition=!$isLowExp}
+    :::if{source="Popplio" condition=$isLowExp}
       ::damage[*Water Gun AT +4]{source="Popplio" special=true movePower=40 level=16 torrent=true stab=true statModifier=4 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
       ::damage[Disarming Voice AT +4]{source="Popplio" special=true movePower=40 level=16 statModifier=4 effectiveness=2 opponentLevel=14 opponentStat=26 healthThreshold=57 theme=error}
   :::
