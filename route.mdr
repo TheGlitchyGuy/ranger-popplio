@@ -203,6 +203,10 @@ Head to Route 1 to the right of your house.
 :::if{source="Popplio" condition="spatk=(x / 23+ / 5+) && spdef=(16+/#/#) || speed=(28- / 9- / 0) && spdef=(16+/#/#)"}
 - :info[Heal at Lillie]{color=pink}
 :::
+:::if{source="Popplio" condition="speed=(19-28 / 9- / 0)"}
+- You can consider using a Rare Candy before the fight (45 second timeloss later in the run) 
+::variable{name="didCandy" type="boolean" title="Did you use the Rare Candy ?" defaultValue="false"}
+:::
 :::::trainer[Teacher Emily]
   :::pokemon[Magnemite]
     ::damage[Magnemite's Thundershock]{source="Popplio" offensive=false special=true movePower=40 effectiveness=2 stab=true level=11 opponentLevel=8 opponentStat=21}
