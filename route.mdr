@@ -618,7 +618,15 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
     :::
     :::pokemon[Type: Null]
     - Water Gun + *Water Gun(+ *Aqua Jet)
-    ::damage[Ranges to 2HKO]{source="Popplio" evolution=1 offensive=true special=true movePower=40 torrent=true stab=true level=18 opponentLevel=18 opponentStat=44}
+    :::if{source="Popplio" condition="spatk=(x / 7-12 / x)" theme=error}
+          ** Water Gun + *Water Gun is a 82.8% range.**
+    :::
+    :::if{source="Popplio" condition="spatk=(x / 13-17 / 0-1)" theme=error}
+          ** Water Gun + *Water Gun is a 91.8% range.**
+    :::
+    :::if{source="Popplio" condition="spatk=(x / 18+ / 2+)" theme=error}
+          ** Water Gun + *Water Gun is a 100% range.**
+    :::
 :::::
 
 
