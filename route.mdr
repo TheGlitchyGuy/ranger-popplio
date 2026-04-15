@@ -599,6 +599,6 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - *Pickup Hidden Power (read section below) (TBD)*.
 - Charge right around the Gentleman.
 
-::damage[Type Null's Tackle (Lvl 18)]{source="Brionne" offensive=false special=false movePower=40 stab=true level=18 opponentLevel=18 opponentStat=44}
-::damage[Type Null's Tackle (Lvl 20)]{source="Popplio" offensive=false special=false movePower=40 stab=true level=20 opponentLevel=18 opponentStat=44}
+::damage[Type Null's Tackle (Lvl 18)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true level=18 opponentLevel=18 opponentStat=44}
+::damage[Type Null's Tackle (Lvl 20)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true level=20 opponentLevel=18 opponentStat=44}
 
