@@ -554,10 +554,10 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - Water Gun x2
   :::
   :::if{source="Popplio" condition="$isLowExp" theme="info"}
-  - → If you have 23 Speed at level 18, you will need to pickup the Carbos later.
+  - If you have 23 Speed at level 18, you will need to pickup the Carbos later.
   :::
   :::if{source="Popplio" condition="!$isLowExp" theme="warning"}
-  - → Teach Encore over Disarming Voice (Slot 4).
+  - Teach Encore over Disarming Voice (Slot 4).
   :::
 :::::
 
