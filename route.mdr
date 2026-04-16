@@ -734,8 +734,10 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::if{source="Popplio" condition="def=(20+/1+/#)"}
  - Drowzee's Headbutt deals 7 or less damage at 34+ Defense
 :::
+----
 - Poison Gas will always do 7
 ::::
 
+test
 
 
