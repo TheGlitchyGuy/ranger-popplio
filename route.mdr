@@ -682,6 +682,8 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 ::damage[Wishiwashi's Water Gun (Lvl 19)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true effectiveness=0.5 level=19 opponentLevel=20 opponentStat=54 weatherBoosted=true theme="info"}
 :::
 
+
+:::::::trainer[Totem Pokémon Wishiwashi]
 ::::pokemon[Totem Wishiwashi]
 - X.Sp-Atk
 - Scald the small Wishiwashi
@@ -697,18 +699,19 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 ::damage[+4 Torrent Scald vs Totem Wishiwashi (Low Exp)]{source="Popplio" special=true evolution=1 movePower=80 level=19 stab=true torrent=true weatherBoosted=true effectiveness=0.5 combatStages=4 opponentLevel=20 opponentStat=59 healthThreshold=48 theme=error}
 :::
 ::::
+:::::
 
 - Mash A twice when talking to Lana.
 - Backtrack to pickup the Rare Candy. ![Water candy](water-candy.gif)
 - Go back south east to Paniola Ranch.
 
 :::::trainer[Pokémon Breeder Amanda]
- :::pokemon[Lillipup]
- - Scald
- :::
- :::pokemon[Growlithe]
- - Scald
- :::
+  :::pokemon[Lillipup]
+    - Scald
+  :::
+  :::pokemon[Growlithe]
+    - Scald
+  :::
 :::::
 
 - Head  south to Route 6
