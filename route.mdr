@@ -692,9 +692,47 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - X.Sp-Atk
 - Use Encore on Water Gun until in Torrent.
 -	 → Can stall using Revives or Aqua Jet on Growl.
-- *Scald Wishiwashi a
+- *Scald Wishiwashi
 :::if{source="Popplio" condition=$isLowExp}
 ::damage[+4 Torrent Scald vs Totem Wishiwashi (Low Exp)]{source="Popplio" special=true evolution=1 movePower=80 level=19 stab=true torrent=true weatherBoosted=true effectiveness=0.5 combatStages=4 opponentLevel=20 opponentStat=59 healthThreshold=48 theme=error}
 :::
 ::::
+
+- Mash A twice when talking to Lana.
+- Backtrack to pickup the Rare Candy. ![Water candy](water-candy.gif)
+- Go back south east to Paniola Ranch.
+
+:::::trainer[Pokémon Breeder Amanda]
+    :::pokemon[Lillipup]
+    - Scald
+    :::
+    :::pokemon[Growlithe]
+    - Scald
+    :::
+:::::
+
+- Head  south to Route 6
+- Talk to the Sudowoodos
+
+:::if{source="Popplio" condition=!$isLowExp}
+:::card{theme=warning}
+- Use 2 **Rare Candies**
+:::
+
+::::if{source="Popplio" condition=$isLowExp}
+:::card{theme=info}
+- Equip Mystic Water on Brionne if you can die to Drowzee and you are not going for the Scald range in Torrent.
+:::if{source="Popplio" condition="def=(0/x/x)"}
+- Drowzee's Headbutt deals 8-9 / (10) damage at 29 Defense (0 / x / x)
+:::
+:::if{source="Popplio" condition="def=(1-19/0/x)"}
+ - Drowzee's Headbutt deals 7-8 / (9) damage at 30-33 Defense (1-19 / 0 / x)
+:::
+:::if{source="Popplio" condition="def=(20+/1+/#)"}
+ - Drowzee's Headbutt deals 7 or less damage at 34+ Defense
+:::
+- Poison Gas will always do 7
+::::
+
+
 
