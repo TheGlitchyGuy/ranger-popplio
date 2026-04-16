@@ -650,22 +650,24 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Quick Bind Lapras in Ride Pager.
 - Run from first Wishiwashi.
 - (Can pickup Max Repel)
+:::dropdown{title=Max Repel theme=info}
+![Max Repel](water-max-repel.png)
 - Reapply the Repel.
 - Run from second Wishiwashi.
 - Pickup TM55 Scald.
 - Heal to full-ish with Potions.
 
 - If you did not pickup Hidden Power:
--    - Teach Scald over Growl (Slot 3).
+   - Teach Scald over Growl (Slot 3).
 
-:::dropdown{theme=neutral}
+:::dropdown{theme=info}
 - If you picked up Hidden Power Ice, Fire, Poison.
--    - Teach Scald over Growl (Slot 3).
--    - Teach Hidden Power over Water Gun (Slot 2).
+   - Teach Scald over Growl (Slot 3).
+   - Teach Hidden Power over Water Gun (Slot 2).
 
 - If you picked up Hidden Power Flying:
--   - Teach Scald over Water Gun (Slot 2).
--   - Teach Hidden Power over Growl (Slot 3).
+  - Teach Scald over Water Gun (Slot 2).
+  - Teach Hidden Power over Growl (Slot 3).
 :::
 
 - Watch out for the fisher after picking up Scald. !info[Fisher](fisher.gif)
