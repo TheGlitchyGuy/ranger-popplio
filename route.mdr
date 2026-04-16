@@ -703,12 +703,12 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Go back south east to Paniola Ranch.
 
 :::::trainer[Pokémon Breeder Amanda]
-    :::pokemon[Lillipup]
-    - Scald
-    :::
-    :::pokemon[Growlithe]
-    - Scald
-    :::
+ :::pokemon[Lillipup]
+ - Scald
+ :::
+ :::pokemon[Growlithe]
+ - Scald
+ :::
 :::::
 
 - Head  south to Route 6
