@@ -692,9 +692,9 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - X.Sp-Atk
 - Use Encore on Water Gun until in Torrent.
 -	 → Can stall using Revives or Aqua Jet on Growl.
-- *Scald Wishiwashi lol
+- *Scald Wishiwashi 
 :::if{source="Popplio" condition=$isLowExp}
-::damage[+4 Torrent Scald vs Totem Wishiwashi (Low Exp)]{source="Popplio" special=true evolution=1 movePower=80 level=19 stab=true torrent=true weatherBoosted=true effectiveness=0.25 statModifier=4 opponentLevel=20 opponentStat=59 healthThreshold=48 theme=error}
+::damage[+4 Torrent Scald vs Totem Wishiwashi (Low Exp)]{source="Popplio" special=true evolution=1 movePower=80 level=19 stab=true torrent=true weatherBoosted=true effectiveness=0.5 statModifier=4 opponentLevel=20 opponentStat=59 healthThreshold=48 theme=error}
 :::
 ::::
 
