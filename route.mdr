@@ -625,7 +625,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
        - Water Gun + *Water Gun is a 91.8% range.
     :::
     :::if{source="Popplio" condition="spatk=(x / 18+ / 2+)" theme=error}
-       - Water Gun + *Water Gun is a 100% range.
+       - Water Gun + *Water Gun is a 100% range.e
     :::
 :::::
 
