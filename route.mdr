@@ -652,6 +652,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - (Can pickup Max Repel)
 :::dropdown{title=Max Repel theme=info}
 ![Max Repel](water-max-repel.png)
+:::
 - Reapply the Repel.
 - Run from second Wishiwashi.
 - Pickup TM55 Scald.
@@ -674,4 +675,5 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 - Do not reapply the Repel.
 
+::damage[Wishiwashi's Water Gun (Lvl 20)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true level=20 opponentLevel=18 opponentStat=44 theme="warning"}
 
