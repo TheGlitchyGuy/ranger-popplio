@@ -694,7 +694,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 -	 → Can stall using Revives or Aqua Jet on Growl.
 - *Scald Wishiwashi
 :::if{source="Popplio" condition=$isLowExp}
-::damage[+4 Torrent Scald vs Totem Wishiwashi (Low Exp)]{source="Popplio" special=true movePower=80 level=19 stab=true torrent=true weatherBoosted=true statModifier=2 opponentLevel=20 opponentStat=59 healthThreshold=48 theme=error}
+::damage[+4 Torrent Scald vs Totem Wishiwashi (Low Exp)]{source="Popplio" special=true evolution=1 movePower=80 level=19 stab=true torrent=true weatherBoosted=true statModifier=2 opponentLevel=20 opponentStat=59 healthThreshold=48 theme=error}
 :::
 ::::
 
