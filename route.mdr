@@ -740,6 +740,12 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Poison Gas will always do 7
 ::::
 
-test
+:::::trainer[Team Skull Grunt]
+  :::pokemon[Drowzee]
+    - Scald*2 or *Scald
+  :::if{source="Popplio" condition=$isLowExp}
+  ::damage[Torrent Scald vs Drowzee (Low Exp)]{source="Popplio" special=true evolution=1 movePower=80 level=21 stab=true torrent=true opponentLevel=17 opponentStat=35 healthThreshold=47 theme=error}
+  :::
+:::::
 
 
