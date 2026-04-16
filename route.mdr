@@ -720,7 +720,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::
 
 ::::if{source="Popplio" condition=$isLowExp}
-:::card{theme=info}
+::::card{theme=info}
 - Equip Mystic Water on Brionne if you can die to Drowzee and you are not going for the Scald range in Torrent.
 :::if{source="Popplio" condition="def=(0/x/x)"}
 - Drowzee's Headbutt deals 8-9 / (10) damage at 29 Defense (0 / x / x)
