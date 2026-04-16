@@ -633,7 +633,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::if{source="Popplio" condition=!$isLowExp}
 :::card{theme=warning}
 
-::damage[Type: Null's Tackle (Lvl 20)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true level=20 opponentLevel=18 opponentStat=44}
+::damage[Type: Null's Tackle (Lvl 20)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true level=20 opponentLevel=18 opponentStat=44 theme="warning"}
 
  :::::trainer[Gladion (High Exp)]
     :::pokemon[Zubat]
