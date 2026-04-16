@@ -635,25 +635,13 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 ::damage[Type: Null's Tackle (Lvl 20)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true level=20 opponentLevel=18 opponentStat=44}
 
- :::::::trainer[Gladion (High Exp)]
-    ::::pokemon[Zubat]
+ :::::trainer[Gladion (High Exp)]
+    :::pokemon[Zubat]
+    - X.Sp-Atk
+    - Water Gun :info[100% at 44+ Sp. Atk (x / 13+ / 0+)]{color=red}
+    :::
+    :::pokemon[Type: Null]{info="speed tie at 31 (x / 24 - 28 / 14 - 18)" infoColor=blue}
     - Water Gun
-      :::if{source="Popplio" condition="speed=(x/30+/19+)"}
-      -   → Skip X-Speed if 29+ Speed and can survive two Tackles
-      :::
-    - Potion if you cannot live a Tackle from Type: Null.
-    - Water Gun
-    ::::
-    ::::pokemon[Type: Null]
-    - Water Gun + *Water Gun(+ *Aqua Jet)
-     :::if{source="Popplio" condition="spatk=(x / 7-12 / x)" theme=error}
-       - Water Gun + *Water Gun is a 82.8% range.
-     :::
-     :::if{source="Popplio" condition="spatk=(x / 13-17 / 0-1)" theme=error}
-      - Water Gun + *Water Gun is a 91.8% range.
-     :::
-     :::if{source="Popplio" condition="spatk=(x / 18+ / 2+)" theme=error}
-        - Water Gun + *Water Gun is a 100% range.
-     :::
-    ::::
-:::::::
+    - *Water Gun + *Aqua Jet OR Water Gun x2
+    :::
+:::::
