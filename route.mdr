@@ -625,11 +625,35 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
       - Water Gun + *Water Gun is a 91.8% range.
      :::
      :::if{source="Popplio" condition="spatk=(x / 18+ / 2+)" theme=error}
-        - Water Gun + *Water Gun is a 100% range.t
+        - Water Gun + *Water Gun is a 100% range.
      :::
     ::::
 :::::::
 
-
+:::if{source="Popplio" condition=!$isLowExp}
+:::card{theme=warning}
 
 ::damage[Type: Null's Tackle (Lvl 20)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true level=20 opponentLevel=18 opponentStat=44}
+
+ :::::::trainer[Gladion (High Exp)]
+    ::::pokemon[Zubat]
+    - Water Gun
+      :::if{source="Popplio" condition="speed=(x/30+/19+)"}
+      -   → Skip X-Speed if 29+ Speed and can survive two Tackles
+      :::
+    - Potion if you cannot live a Tackle from Type: Null.
+    - Water Gun
+    ::::
+    ::::pokemon[Type: Null]
+    - Water Gun + *Water Gun(+ *Aqua Jet)
+     :::if{source="Popplio" condition="spatk=(x / 7-12 / x)" theme=error}
+       - Water Gun + *Water Gun is a 82.8% range.
+     :::
+     :::if{source="Popplio" condition="spatk=(x / 13-17 / 0-1)" theme=error}
+      - Water Gun + *Water Gun is a 91.8% range.
+     :::
+     :::if{source="Popplio" condition="spatk=(x / 18+ / 2+)" theme=error}
+        - Water Gun + *Water Gun is a 100% range.
+     :::
+    ::::
+:::::::
