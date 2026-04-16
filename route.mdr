@@ -675,5 +675,26 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 - Do not reapply the Repel.
 
-::damage[Wishiwashi's Water Gun (Lvl 20)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true level=20 opponentLevel=18 opponentStat=44 theme="warning"}
+:::if{source="Popplio" condition=!$isLowExp}
+::damage[Wishiwashi's Water Gun (Lvl 20)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true level=20 opponentLevel=20 opponentStat=54 weatherBoosted=true theme="warning"}
+:::
+:::if{source="Popplio" condition=$isLowExp}
+::damage[Wishiwashi's Water Gun (Lvl 19)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true level=19 opponentLevel=20 opponentStat=54 weatherBoosted=true theme="warning"}
+:::
+
+::::pokemon[Totem Wishiwashi]
+- X.Sp-Atk
+- Scald the small Wishiwashi
+:::if{source="Popplio" condition=$isLowExp}
+- If not going for the +4 range on Wishiwashi
+  > Water Gun
+:::
+- X.Sp-Atk
+- Use Encore on Water Gun until in Torrent.
+-		→ Can stall using Revives or Aqua Jet on Growl.
+- *Scald Wishiwashi
+:::if{source="Popplio" condition=$isLowExp}
+::damage[+4 Torrent Scald vs Totem Wishiwashi (Low Exp)]{source="Popplio" special=true movePower=80 level=19 stab=true torrent=true statModifier=4 opponentLevel=20 opponentStat=59 healthThreshold=48 theme=error}
+:::
+::::
 
