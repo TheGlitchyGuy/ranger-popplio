@@ -687,7 +687,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Scald the small Wishiwashi
 :::if{source="Popplio" condition=$isLowExp}
 - If not going for the +4 range on Wishiwashi
-  > Water Gun
+  - Water Gun
 :::
 - X.Sp-Atk
 - Use Encore on Water Gun until in Torrent.
