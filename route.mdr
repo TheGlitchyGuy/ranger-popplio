@@ -676,10 +676,10 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Do not reapply the Repel.
 
 :::if{source="Popplio" condition=!$isLowExp}
-::damage[Wishiwashi's Water Gun (Lvl 20)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true level=20 opponentLevel=20 opponentStat=54 weatherBoosted=true theme="warning"}
+::damage[Wishiwashi's Water Gun (Lvl 20)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true effectiveness=0.5  level=20 opponentLevel=20 opponentStat=54 weatherBoosted=true theme="warning"}
 :::
 :::if{source="Popplio" condition=$isLowExp}
-::damage[Wishiwashi's Water Gun (Lvl 19)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true level=19 opponentLevel=20 opponentStat=54 weatherBoosted=true theme="warning"}
+::damage[Wishiwashi's Water Gun (Lvl 19)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true effectiveness=0.5 level=19 opponentLevel=20 opponentStat=54 weatherBoosted=true theme="info"}
 :::
 
 ::::pokemon[Totem Wishiwashi]
