@@ -748,4 +748,21 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   :::
 :::::
 
+- Go South West to pickup Rare Candy after smashing the rock. !(First fire candy)[fire-candy1.png)
+:::if{source="Popplio" condition="speed=(x/0-1/25-26) || $isLowExp && speed=(x/23-24/10-11)"}
+- Pickup the hidden Carbos by breaking the pair of rocks south of the Rare Candy. !(Carbos pickup)[carbos.png]
+:::
+- In Royal Avenue, go East after fountain and pickup Rare Candy. !(avenue candy)[fire-candy2.png)
 
+- Enter the building to participate in a Battle Royal.
+- Target Torracat with Scald in Battle Royal.
+
+:info[**FREE HEAL**]{color=pink}
+
+- At Fire Trial grass:
+	- Teach Hidden Power over Water Gun if you picked it up late.
+	- Equip Waterium-Z.
+	- Use a Repel (reapply it once) OR Use Max Repel if picked up in Water Trial.
+	:::if{source="Popplio" condition="speed=(x/0-1/25-26) || $isLowExp && speed=(x/23-24/10-11)"}
+	- Use Carbos
+	:::
