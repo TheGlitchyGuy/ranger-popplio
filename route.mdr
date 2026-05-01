@@ -777,9 +777,9 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
   Second correct answer is answer 4 (^^), the Hiker.
   ::::pokemon[Magmar]{info="has Flame Body" infoColor=gray}
-    :::if{source="Popplio" condition=!$isLowExp}
+   :::if{source="Popplio" condition=!$isLowExp}
     - Scald
-    :::
+   :::
   ::::
 ::::::
 
