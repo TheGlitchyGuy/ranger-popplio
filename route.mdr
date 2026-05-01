@@ -794,8 +794,5 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
     - Wing Attack Salazzle
       - Teach Flying Press over Hone Claws
     - Fling (Wing Attack x2 if Detected) :info[Fling is 15/16 range]{color=red}
-   ::damage[Marowak's Flame Wheel @ Level 27]{source="Hawlucha" offensive=false movePower=60 stab=true level=27 evs=0 opponentLevel=22 opponentStat=47 opponentCombatStages=+2}
-   ::damage[Marowak's Flame Wheel @ Level 28]{source="Hawlucha" offensive=false movePower=60 stab=true level=28 evs=2 opponentLevel=22 opponentStat=47 opponentCombatStages=+2}
-   ::damage[Salazzle's Flame Burst]{source="Hawlucha" offensive=false movePower=70 stab=true special=true level=27 evs=9 opponentLevel=20 opponentStat=52}
   :::
 :::::
