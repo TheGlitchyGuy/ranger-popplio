@@ -781,10 +781,10 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
     - Scald
    :::
    :::if{source="Popplio" condition=$isLowExp}
-     - Scald(+ Water Gun/ Hidden Power) OR Z-Scald for safety
-         - If you took a lot of damage, you may Aqua Jet turn 2
-         - If burnt,heal burn through Refresh when the button pops up.
-     ::damage[Popplio's Scald at Level 21]{source="Popplio" special=true evolution=1 movePower=80 stab=true level=21 evs=3 opponentLevel=19 opponentStat=40 healthThreshold=56 theme=error}
+   - Scald(+ Water Gun/ Hidden Power) OR Z-Scald for safety
+       - If you took a lot of damage, you may Aqua Jet turn 2
+       - If burnt,heal burn through Refresh when the button pops up.
+   ::damage[Popplio's Scald at Level 21]{source="Popplio" special=true evolution=1 movePower=80 stab=true level=21 evs=3 opponentLevel=19 opponentStat=40 healthThreshold=56 theme=error}
    :::
   ::::
 ::::::
