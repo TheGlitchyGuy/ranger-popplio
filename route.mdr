@@ -766,6 +766,6 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 	- Use a Repel (reapply it once) OR Use Max Repel if picked up in Water Trial.
 	:::if{source="Popplio" condition="speed=(x/0-1/25-26) || $isLowExp && speed=(x/23-24/10-11)"}
 	- Use Carbos
-:::
+    :::
 
 
