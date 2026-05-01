@@ -457,7 +457,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
     :::pokemon[Litten]
     - *Aqua Jet / *Water Gun / Water Gun
     :::
-   ::variable{name="isLowExp" type="boolean" title="Did you	die in this fight ? ?" defaultValue="false"}
+   ::variable{name="isLowExp" type="boolean" title="Did you	die in this fight ?" defaultValue="false"}
 :::::
 
 :::if{source="Popplio" condition=$isLowExp}
@@ -578,7 +578,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
     :::pokemon[Torracat]
     - Water Gun
     :::
-   ::variable{name="isLowExp" type="boolean" title="Did you	die in this fight ? ?" defaultValue="false"}
+   ::variable{name="isLowExp" type="boolean" title="Did you	die in this fight ?" defaultValue="false"}
 :::::
 
 :::if{source="Popplio" condition=$isLowExp}
