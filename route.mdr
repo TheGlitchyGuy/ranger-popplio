@@ -761,7 +761,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 - Head northeast until you enter Route 7. Make an immediate left into Wela Volcano Park.
 - At Fire Trial grass:
-	- Teach Hidden Power over Water Gun if you picked it up late.
+    - Teach Hidden Power over Water Gun if you picked it up late.
 	- Equip Waterium-Z.
 	- Use a Repel (reapply it once) OR Use Max Repel if picked up in Water Trial.
 	:::if{source="Popplio" condition="speed=(x/0-1/25-26) || $isLowExp && speed=(x/23-24/10-11)"}
@@ -782,8 +782,8 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
    :::
    :::if{source="Popplio" condition=$isLowExp}
     - Scald(+ Water Gun/ Hidden Power) OR Z-Scald for safety
-       - If you took a lot of damage, you may Aqua Jet turn 2
-       - If burnt,heal burn through Refresh when the button pops up.
+        - If you took a lot of damage, you may Aqua Jet turn 2
+        - If burnt,heal burn through Refresh when the button pops up.
     ::damage[Popplio's Scald at Level 21]{source="Popplio" special=true movePower=80 stab=true level=21 evs=3 opponentLevel=19 opponentStat=40}
    :::
   ::::
