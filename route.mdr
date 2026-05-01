@@ -447,7 +447,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::card{theme=warning}
   
   ::damage[Litten's Lick]{source="Popplio" offensive=false special=false movePower=30 level=16 opponentLevel=14 opponentStat=25 theme="warning"}
-  ::damage[Litten's Ember]{source="Popplio" offensive=false special=true stab=true movePower=40 level=16 effectiveness=0.5 opponentLevel=14 opponentStat=13 theme="warning"}
+  ::damage[Litten's Ember]{source="Popplio" offensive=false special=true stab=true movePower=40 level=16 effectiveness=0.5 opponentLevel=14 opponentStat=23 theme="warning"}
 
   :::::trainer[Hau 3 (High Exp)]
     :::pokemon[Pikachu]
