@@ -768,23 +768,4 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 	- Use Carbos
 :::
 
-:::::trainer[Wela Volcano Park Trial]
 
-  First correct answer is answer 2 (v), the middle Marowak.
-  :::pokemon[Marowak]
-    - Scald
-  :::
-
-  Second correct answer is answer 4 (^^), the Hiker.
-  ::::pokemon[Magmar]{info="has Flame Body" infoColor=gray}
-    :::if{source="Popplio" condition=!$isLowExp}
-    - Scald
-    :::
-    :::if{source="Popplio" condition=$isLowExp}
-       - Scald(+ Water Gun/ Hidden Power) OR Z-Scald for safety
-          - If you took a lot of damage, you may Aqua Jet turn 2
-          - If burnt,heal burn through Refresh when the button pops up.
-       ::damage[Popplio's Scald at Level 21]{source="Popplio" offensive=true movePower=80 stab=true level=21 evs=3 opponentLevel=19 opponentStat=40}
-	:::
-  ::::
-:::::
