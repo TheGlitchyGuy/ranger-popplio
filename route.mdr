@@ -784,15 +784,8 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
        - Scald(+ Water Gun/ Hidden Power) OR Z-Scald for safety
           - If you took a lot of damage, you may Aqua Jet turn 2
           - If burnt,heal burn through Refresh when the button pops up.
-       ::damage[Popplio's Scald at Level 21]{source="Popplio" offensive=true movePower=80 stab=true level=21 evs=3 opponentLevel=19 opponentStat=40}
+       ::damage[Popplio's Scald at Level 21]{source="Popplio" movePower=80 stab=true level=21 evs=3 opponentLevel=19 opponentStat=40}
 	:::
-  ::::
-  All answers are correct for the last question.
-  ::::pokemon[Totem Marowak]{info="Heal as needed" infoColor=gray}
-    - X Attack
-    - Wing Attack Salazzle
-      - Teach Flying Press over Hone Claws
-    - Fling (Wing Attack x2 if Detected) :info[Fling is 15/16 range]{color=red}
   ::::
 ::::::
 
