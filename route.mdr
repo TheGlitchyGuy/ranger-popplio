@@ -787,3 +787,4 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
        ::damage[Popplio's Scald at Level 21]{source="Popplio" offensive=true movePower=80 stab=true level=21 evs=3 opponentLevel=19 opponentStat=40}
 	:::
   ::::
+:::::
