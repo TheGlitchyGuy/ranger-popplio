@@ -766,7 +766,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 	- Use a Repel (reapply it once) OR Use Max Repel if picked up in Water Trial.
 	:::if{source="Popplio" condition="speed=(x/0-1/25-26) || $isLowExp && speed=(x/23-24/10-11)"}
 	- Use Carbos
-	:::
+:::
 
 :::::trainer[Wela Volcano Park Trial]
 
@@ -776,7 +776,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   :::
 
   Second correct answer is answer 4 (^^), the Hiker.
-  :::pokemon[Magmar]{info="has Flame Body" infoColor=gray}
+  ::::pokemon[Magmar]{info="has Flame Body" infoColor=gray}
     :::if{source="Popplio" condition=!$isLowExp}
     - Scald
     :::
@@ -786,7 +786,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
           - If burnt,heal burn through Refresh when the button pops up.
        ::damage[Popplio's Scald at Level 21]{source="Popplio" offensive=true movePower=80 stab=true level=21 evs=3 opponentLevel=19 opponentStat=40}
 	:::
-  :::
+  ::::
 
   All answers are correct for the last question.
   :::pokemon[Totem Marowak]{info="Heal as needed" infoColor=gray}
