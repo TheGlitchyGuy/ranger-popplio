@@ -792,8 +792,8 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   :::if{source="Popplio" condition=$isLowExp}
   ::::card{theme=info}
   ::::pokemon[Totem Salazzle (Low Exp)]{info="faster than Salandit at 35+ Speed (x / 25+ / 12+)" infoColor=blue}
-  - Z-Scald Salazzle
-  ::damage[Brionne's Z-Scald at Level 22 (Low Exp)]{source="Popplio" special=true evolution=1 movePower=80 stab=true effectiveness=2 level=22 evs=5 opponentLevel=22 opponentStat=52 opponentcombatStages=1 healthThreshold=69 theme=error}
+  - Z-Scald Salazzle i
+  ::damage[Brionne's Z-Scald at Level 22 (Low Exp)]{source="Popplio" special=true evolution=1 movePower=160 stab=true effectiveness=2 level=22 evs=5 opponentLevel=22 opponentStat=52 opponentcombatStages=1 healthThreshold=69 theme=error}
 
   
  
