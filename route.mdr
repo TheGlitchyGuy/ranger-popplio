@@ -784,7 +784,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
    - Scald(+ Water Gun/ Hidden Power) OR Z-Scald for safety
    - > If you took a lot of damage, you may Aqua Jet turn 2
    -   > If burnt, heal burn through Refresh when the button pops up.
-   ::damage[Brionne's Scald at Level 21 (Low Exp)]{source="Popplio" special=true evolution=1 movePower=80 stab=true torrent=true effectiveness=2 level=21 evs=3 opponentLevel=19 opponentStat=40 healthThreshold=56 theme=error}
+   ::damage[Brionne's Scald at Level 21 (Low Exp)]{source="Popplio" special=true evolution=1 movePower=80 stab=true  effectiveness=2 level=21 evs=3 opponentLevel=19 opponentStat=40 healthThreshold=56 theme=error}
    :::
   ::::
 
@@ -797,7 +797,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::variable{name="OHKOSalazzle" type="boolean" title="Did you one shot Salazzle ?(With a crit for example)" defaultValue="false"}
   - Aqua Jet Salazzle
   - *Aqua Jet or Scald Salandit
-  ::damage[Brionne's Aqua Jet at Level 23 (Low Exp)]{source="Popplio" special=false evolution=1 movePower=40 stab=true effectiveness=2 level=23 evs=7 opponentLevel=20 opponentStat=24 healthThreshold=52 theme=error}
+  ::damage[Brionne's Aqua Jet at Level 23 (Low Exp)]{source="Popplio" special=false evolution=1 movePower=40 stab=true torrent=true effectiveness=2 level=23 evs=7 opponentLevel=20 opponentStat=24 healthThreshold=52 theme=error}
   :::if{source="Popplio" condition=$OHKOSalazzle}
   - Do not reapply the Repel and hope for an encounter in the grass on Route 8.
   - Kill this encounter with Scald.
