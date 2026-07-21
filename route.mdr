@@ -628,7 +628,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - **Flying**
   - **Fire**
   - **Ice**
-- ::variable{name="hiddenpower" type="select" title="What Hidden Power do you have ?" options='["Poison", "Flying", "Fire", "Ice"]'}
+- ::variable{name="hiddenpower" type="select" title="What Hidden Power do you have ?" options='["Poison", "Flying", "Fire", "Ice", "None"]' defaultValue= 'None'}
 :::
 
 
