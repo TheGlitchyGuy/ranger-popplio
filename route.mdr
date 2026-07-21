@@ -692,9 +692,10 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Run from second Wishiwashi.
 - Pickup TM55 Scald.
 - Heal to full-ish with Potions.
-
+:::if{source="Popplio" condition="$hiddenpower == 'None' "}
 - If you did not pickup Hidden Power:
    - Teach Scald over Growl (Slot 3).
+:::
 - 
 :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' "}
 - If you picked up Hidden Power Ice, Fire, Poison.
@@ -919,12 +920,13 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
  :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
  - **If Hidden Power**:	
      - Hidden Power (+ Scald)
- - Otherwise:
  :::
+ :::if{source="Popplio" condition="$hiddenpower == 'None' "}
 - Scald x2 / x3 
 - OR Scald + *Scald
 - OR Z-Scald (range)
 - OR *Z-Scald
+ :::
  ::::
 
 - :info[If you only have ~4 Super Potions left, pickup Hyper Potion in the northern area to the right.]{color=gray}
