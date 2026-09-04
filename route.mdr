@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon 
+# Pokémon Moon G
 ### Any% Primarina notes
 
 ----
@@ -1698,7 +1698,31 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 :::
 ::::::
 
-:::::trainer[Aether Foundation Employee]
-::::pokemon[Magneton]
-:::if{source="Popplio" condition="speed=(24+/8+/#)" && !$isLowExp"}
+::::::trainer[Aether Foundation Employee]
+:::::pokemon[Magneton]
+::::if{source="Popplio" condition=!$isLowExp}
+
+:::if{source="Popplio" condition="speed=(24+/8+/#)"}
 ::damage[Magneton’s Electro Ball does:]{source="Popplio" special=true offensive=false evolution=2 movePower=40 stab=true effectiveness=2 level=42 evs=13 opponentLevel=37 opponentStat=99}
+- Aqua Jet + Sparkling Aria
+:::
+
+:::if{source="Popplio" condition="speed=(23-/7-/x)"}
+::damage[Magneton’s Electro Ball does:]{source="Popplio" special=true offensive=false evolution=2 movePower=60 stab=true effectiveness=2 level=42 evs=13 opponentLevel=37 opponentStat=99}
+- Sparkling Aria + Aqua Jet
+:::
+::::
+::::if{source="Popplio" condition=$isLowExp}
+
+:::if{source="Popplio" condition="speed=(25+/9+/#)"}
+::damage[Magneton’s Electro Ball does:]{source="Popplio" special=true offensive=false evolution=2 movePower=40 stab=true effectiveness=2 level=42 evs=13 opponentLevel=37 opponentStat=99}
+- Aqua Jet + Sparkling Aria
+:::
+
+:::if{source="Popplio" condition="speed=(24-/7-/x)"}
+::damage[Magneton’s Electro Ball does:]{source="Popplio" special=true offensive=false evolution=2 movePower=60 stab=true effectiveness=2 level=42 evs=13 opponentLevel=37 opponentStat=99}
+- Sparkling Aria + Aqua Jet
+:::
+::::
+:::::
+::::::
