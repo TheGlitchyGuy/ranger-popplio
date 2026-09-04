@@ -1719,10 +1719,45 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 - Aqua Jet + Sparkling Aria
 :::
 
-:::if{source="Popplio" condition="speed=(24-/7-/x)"}
+:::if{source="Popplio" condition="speed=(24-/8-/x)"}
 ::damage[Magneton’s Electro Ball does:]{source="Popplio" special=true offensive=false evolution=2 movePower=60 stab=true effectiveness=2 level=42 evs=13 opponentLevel=37 opponentStat=99}
 - Sparkling Aria + Aqua Jet
 :::
 ::::
 :::::
 ::::::
+
+:::::trainer[Aether Foundation Employee]
+::::pokemon[Porygon 2]
+::damage[Primarina's *Sparkling Aria at Level 42]{source="Popplio" special=true evolution=2 movePower=90 stab=true torrent=true effectiveness=1 otherPowerModifier=1.2 level=42 evs=22 opponentLevel=37 opponentStat=80 healthThreshold=115 theme=error}
+- Sparkling Aria + Psychic :info[100% at 118+ Sp. Atk (x / 13+ / 0+)]{color=red}
+:::::
+
+- Enter the last room
+
+::::trainer[Aether Foundation Double 1]
+- If in Torrent : *Sparkling Aria
+- Otherwise :
+> - Psychic Machoke
+> - Psychic Vanilish
+::::
+
+- **TALK TO THE PC IN THE ROOM**
+- Go up the lift to the Entrance
+
+:info[**FREE HEAL**]{color=pink}
+
+::::trainer[Aether Foundation Double 2]
+- Sparkling Aria 
+- Psychic Pelliper
+::::
+
+:info[**FREE HEAL**]{color=pink}
+
+::::trainer[Aether Foundation Double 3 (avoid using an item to prevent a potential console crash)]
+- Sparkling Aria 
+- Aqua Jet Electabuzz if Light Screen or Low HP, **else** Sparkling Aria again
+::::
+- Teach Moonblast over Aqua Jet (Slot 1)
+
+:info[**FREE HEAL**]{color=pink}
