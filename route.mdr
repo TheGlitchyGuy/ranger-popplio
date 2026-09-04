@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon G
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -1761,3 +1761,5 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 - Teach Moonblast over Aqua Jet (Slot 1)
 
 :info[**FREE HEAL**]{color=pink}
+
+::damage[Bruxish’s Psychic Fangs does:]{source="Popplio" special=false offensive=false evolution=2 movePower=85 stab=true effectiveness=1 level=44 evs=25 opponentLevel=39 opponentStat=135}
