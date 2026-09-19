@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon e
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -1774,6 +1774,38 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 - >	→ Incineroar can easily deal with Bruxish and damaged Slowbro / Hypno.
 ::::
 
+:info[**FREE HEAL**]{color=pink}
 
+::::::if{source="Popplio" condition=!$isLowExp}
+
+:::::trainer[Team Skull Grunt]{info="faster at 78+ Speed (x / x / 18+)" infoColor=blue}
+::::pokemon[Golbat]
+- Psychic
+:::::
+
+:::::trainer[Team Skull Grunt]{info="faster at 68+ Speed (26+ / 8+ / 0+)" infoColor=blue}
+::::pokemon[Raticate]
+:::if{source="Popplio" condition="spatk=(x/26+/0+)"}
+- Sparkling Aria
+:::
+:::if{source="Popplio" condition="spatk=(#/25-/x)"}
+- Moonblast
+::::::
+
+::::::if{source="Popplio" condition=$isLowExp}
+
+:::::trainer[Team Skull Grunt]{info="faster at 78+ Speed (x / x / 19+)" infoColor=blue}
+::::pokemon[Golbat]
+- Psychic
+:::::
+
+:::::trainer[Team Skull Grunt]{info="faster at 68+ Speed (27+ / 9+ / 0+)" infoColor=blue}
+::::pokemon[Raticate]
+:::if{source="Popplio" condition="spatk=(x/26+/0+)"}
+- Sparkling Aria
+:::
+:::if{source="Popplio" condition="spatk=(#/25-/x)"}
+- Moonblast
+::::::
 
 
