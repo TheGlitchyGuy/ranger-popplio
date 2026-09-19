@@ -1764,7 +1764,7 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 
 ::damage[Bruxish’s Psychic Fangs does:]{source="Popplio" special=false offensive=false evolution=2 movePower=85 stab=true effectiveness=1 level=44 evs=25 opponentLevel=39 opponentStat=135}
 
-::::trainer[Aether Foundation Double 4]:info[aka Faba Double]{color=gray}
+::::trainer[Aether Foundation Double 4]{info="AKA Faba Double" infoColor=gray}
 - **“Wait 4 Mississippis” (avoids console crash)**, then open bag and use X-Sp. Atk 
 - Sparkling Aria until Ledian is dead
 - Moonblast Slowbro
