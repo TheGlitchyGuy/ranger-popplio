@@ -1808,4 +1808,24 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 - Moonblast
 ::::::
 
+:info[**Heal to full**]{color=pink}
 
+:::::trainer[Guzma 3]
+::::pokemon[Golisopod]
+- X-Sp. Atk
+- X-Speed
+- Moonblast
+::::
+::::pokemon[Masquerain]
+- Moonblast
+::::
+::::pokemon[Ariados]
+- Sparkling Aria
+::::
+::::pokemon[Pinsir]
+:::if{source="Popplio" condition="spatk=(x/30+/4+)"}
+- Psychic
+:::
+:::if{source="Popplio" condition="spatk=(#/29-/3-)"}
+- Moonblast
+:::::
