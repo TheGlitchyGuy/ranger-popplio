@@ -1829,3 +1829,17 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 :::if{source="Popplio" condition="spatk=(#/29-/3-)"}
 - Moonblast
 :::::
+
+:info[**FREE HEAL**]{color=pink}
+
+::::trainer[Lusamine]
+:::pokemon[Clefable]
+- Encore
+- Encore on Metronome and Moonblast
+- Psychic on Cosmic Power
+::::
+
+:info[**FREE HEAL**]{color=pink}
+
+- Follow cutscenes (add dropdown detailled)
+- If got killed during the double battles in Aether foundation, Moonblast Exeggutor.
