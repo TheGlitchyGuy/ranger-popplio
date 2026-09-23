@@ -1842,4 +1842,30 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 :info[**FREE HEAL**]{color=pink}
 
 - Follow cutscenes (add dropdown detailled)
+:::dropdown{title="More Detailed Directions" theme="error"}
+- Exit Lillie's room and her house.
+- Head left then down, and select the Docks option on the elevator(Down, A)
+- Talk to Gladion.
+- After the boat cutscenes, **RUN** up to Lillie.
+- After the small cutscene, hop on Tauros and head up.
+- In Poni Wilds, gp up-right and around, sticking to the right to pass behind the cook.
+- After the Machamp cutscene, go down-right after the second turnoff, and into the Ruins of Hope.
+- After the Strength test and the Hapu cutscene, **FLY** back to Seafolk Village.
+- Go down-left to the Magikarp Boat, and take it.
+- *You can mount Tauros on the island*
+- After Exeggutor, go into the cave north.
+- Go grab the Moon Flute at the top of the island
+- Go see Lillie and the Team Skull Grunts in Ancient Poni Path
+:::
+
 - If got killed during the double battles in Aether foundation, Moonblast Exeggutor.
+
+:::::trainer[Team Skull Grunt]
+::::pokemon[Fomantis]
+:::if{source="Popplio" condition="spatk=(x/11+/#)"}
+- Psychic
+:::
+:::if{source="Popplio" condition="spatk=(#/10-/x)"}
+- Moonblast
+:::::
+
