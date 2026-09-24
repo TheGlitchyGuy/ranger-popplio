@@ -1841,7 +1841,7 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 
 :info[**FREE HEAL**]{color=pink}
 
-- Follow cutscenes (add dropdown detailled)
+- Follow cutscenes
 :::dropdown{title="More Detailed Directions" theme="error"}
 - Exit Lillie's room and her house.
 - Head left then down, and select the Docks option on the elevator(Down, A)
@@ -1925,3 +1925,23 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 ::::pokemon[Haunter]{info="*Haunter* always outspeed if you didn't X-Speed" infoColor=gray}
 - Sparkling Aria
 ::::::
+
+:info[**FREE HEAL**]{color=pink}
+
+:info[3 Sandstorms total damage]{color=blue}
+:::if{source="Popplio" condition="hp=(x/23-/x)"}
+:info[24 damage (~-3 from level up)]{color=blue}
+:::
+:::if{source="Popplio" condition="hp=(x/24+/x)"}
+:info[27 damage (~-3 from level up)]{color=blue}
+:::
+
+Primarina
+Ability: Torrent
+Level: 47
+EVs: 10 HP / 44 Atk / 30 Def / 31 SpA / 18 SpD / 61 Spe
+Hardy Nature
+IVs: 2 Def / 0 SpA / 29 SpD
+
+
+::damage[Dugtrio’s Earthquake does:]{source="Popplio" special=false offensive=false evolution=2 movePower=100 stab=true effectiveness=1 level=47 evs=30 opponentLevel=47 opponentStat=143}
