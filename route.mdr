@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon 
+# Pokémon Moon 16
 ### Any% Primarina notes
 
 ----
@@ -1869,3 +1869,59 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 - Moonblast
 :::::
 
+::damage[Raticate’s Double Edge does:]{source="Popplio" special=false offensive=false evolution=2 movePower=120 stab=true effectiveness=1 level=46 evs=29 opponentLevel=44 opponentStat=74}
+::damage[Haunter’s Shadow Ball does:]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true effectiveness=1 level=46 evs=18 opponentLevel=44 opponentStat=112}
+
+::::::if{source="Popplio" condition=!$isLowExp}
+:::::trainer[Team Skull Grunt]{info="Heal as needed" infoColor=gray}
+::::pokemon[Salandit]
+:::if{source="Popplio" condition="speed=(0+/0-25/0-10)"}
+- X-Speed
+- Heal Poison
+:::
+- Psychic
+::::
+::::pokemon[Mareanie]
+- Psychic
+::::
+::::pokemon[Golbat]
+- Psychic / *Sparkling Aria
+:::if{source="Popplio" condition="speed=(x/26-30/11-14)"}
+- X-Speed
+- → Consider using an X-Speed again if Hazed and worried about Raticate
+:::
+- Sparkling Aria
+::::
+::::pokemon[Raticate]{info="faster at 80+ speed (x/31/15+)" infoColor=red}
+- Moonblast / *Sparkling Aria
+::::
+::::pokemon[Haunter]{info="**Haunter** always outspeed if you didn't X-Speed" infoColor=gray}
+- Sparkling Aria
+::::::
+
+::::::if{source="Popplio" condition=$isLowExp}
+:::::trainer[Team Skull Grunt]{info="Heal as needed" infoColor=gray}
+::::pokemon[Salandit]
+:::if{source="Popplio" condition="speed=(0+/0-26/0-11)"}
+- X-Speed
+- Heal Poison
+:::
+- Psychic
+::::
+::::pokemon[Mareanie]
+- Psychic
+::::
+::::pokemon[Golbat]
+- Psychic / *Sparkling Aria
+:::if{source="Popplio" condition="speed=(x/27+/12-15)"}
+- X-Speed
+- → Consider using an X-Speed again if Hazed and worried about Raticate
+:::
+- Sparkling Aria
+::::
+::::pokemon[Raticate]{info="faster at 80+ speed (x/x/16+)" infoColor=red}
+- Moonblast / *Sparkling Aria
+::::
+::::pokemon[Haunter]{info="**Haunter** always outspeed if you didn't X-Speed" infoColor=gray}
+- Sparkling Aria
+::::::
