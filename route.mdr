@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon 16
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -1922,6 +1922,6 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 ::::pokemon[Raticate]{info="faster at 80+ speed (x/x/16+)" infoColor=red}
 - Moonblast / *Sparkling Aria
 ::::
-::::pokemon[Haunter]{info="**Haunter** always outspeed if you didn't X-Speed" infoColor=gray}
+::::pokemon[Haunter]{info="*Haunter* always outspeed if you didn't X-Speed" infoColor=gray}
 - Sparkling Aria
 ::::::
