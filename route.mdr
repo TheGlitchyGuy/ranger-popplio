@@ -1945,3 +1945,15 @@ IVs: 2 Def / 0 SpA / 29 SpD
 
 
 ::damage[Dugtrio’s Earthquake does:]{source="Popplio" special=false offensive=false evolution=2 movePower=100 stab=true effectiveness=1 level=47 evs=30 opponentLevel=47 opponentStat=143}
+
+:::::trainer[Island Kahuna Hapu]{info="HAS SAND VEIL, boosts Evasion by 25%" infoColor=red}
+::::pokemon[Dugtrio]
+:::if{source="Popplio" condition="speed=(x/20+/5+)"}
+- X-Speed
+- X-Sp. Atk only if can survive Earthquake and 3 Sandstorm hits 
+:::
+- Sparkling Aria
+::::
+::::pokemon[Musdale]
+- Sparkling Aria
+::damage[Primarina's Sparkling Aria at Level 47 at +0]{source="Popplio" special=true evolution=2 movePower=90 stab=true effectiveness=2 otherPowerModifier=1.2 level=47 evs=31 opponentLevel=48 opponentStat=93 healthThreshold=168 theme=error}
