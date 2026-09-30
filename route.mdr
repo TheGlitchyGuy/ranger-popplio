@@ -1936,16 +1936,9 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 :info[27 damage (~-3 from level up)]{color=blue}
 :::
 
-Primarina
-Ability: Torrent
-Level: 47
-EVs: 10 HP / 44 Atk / 30 Def / 31 SpA / 18 SpD / 61 Spe
-Hardy Nature
-IVs: 2 Def / 0 SpA / 29 SpD
-
-
 ::damage[Dugtrio’s Earthquake does:]{source="Popplio" special=false offensive=false evolution=2 movePower=100 stab=true effectiveness=1 level=47 evs=30 opponentLevel=47 opponentStat=143}
 
+::::::if{source="Popplio" condition=!$isLowExp}
 :::::trainer[Island Kahuna Hapu]{info="HAS SAND VEIL, boosts Evasion by 25%" infoColor=red}
 ::::pokemon[Dugtrio]
 :::if{source="Popplio" condition="speed=(x/20+/5+)"}
@@ -1958,9 +1951,53 @@ IVs: 2 Def / 0 SpA / 29 SpD
 - Sparkling Aria
 ::damage[Primarina's Sparkling Aria at Level 47 at +0]{source="Popplio" special=true evolution=2 movePower=90 stab=true effectiveness=2 otherPowerModifier=1.2 level=47 evs=31 opponentLevel=48 opponentStat=93 healthThreshold=168 theme=error}
 ::::
-::::pokemon[Flygon]
+::::pokemon[Flygon]{info="Need 73 to outpseed **WITH** X-speed" infoColor=blue}
 - <ins> If didn’t use X-Speed and low HP: </ins> 
 - > Heal + Moonblast
 - <ins> If used X-Speed and no X-Sp. Atk and high HP: </ins>
 - > X-Sp. Atk + Sparkling Aria
+- <ins> If used X-Speed and X-Sp. Atk: </ins>
+- > Sparkling Aria
+- <ins> Otherwise: </ins> 
+- > Moonblast
+::::
+:damage[Gastrodon's Mudbomb at +0 Sp. Def]{source="Popplio" special=true offensive=false evolution=2 movePower=65 stab=true effectiveness=1 level= evs=18 opponentLevel=47 opponentStat=98 combatStages=0--1}
+::::pokemon[Gastrodon]
+- <ins> +0 and Torrent: </ins> *Sparkling Aria x2
+- <ins> +2 and Torrent: </ins> *Sparkling Aria
+- <ins> At high Hp: </ins> (X-Sp. Atk if didn’t yet +) Psychic + Sparkling Aria
+::::
+:::::
+::::::
 
+::::::if{source="Popplio" condition=$isLowExp}
+:::::trainer[Island Kahuna Hapu]{info="HAS SAND VEIL, boosts Evasion by 25%" infoColor=red}
+::::pokemon[Dugtrio]
+:::if{source="Popplio" condition="speed=(x/21+/6+)"}
+- X-Speed
+- X-Sp. Atk only if can survive Earthquake and 3 Sandstorm hits 
+:::
+- Sparkling Aria
+::::
+::::pokemon[Musdale]
+- Sparkling Aria
+::damage[Primarina's Sparkling Aria at Level 47 at +0]{source="Popplio" special=true evolution=2 movePower=90 stab=true effectiveness=2 otherPowerModifier=1.2 level=47 evs=31 opponentLevel=48 opponentStat=93 healthThreshold=168 theme=error}
+::::
+::::pokemon[Flygon]{info="Need 73 to outpseed **WITH** X-speed" infoColor=blue}
+- <ins> If didn’t use X-Speed and low HP: </ins> 
+- > Heal + Moonblast
+- <ins> If used X-Speed and no X-Sp. Atk and high HP: </ins>
+- > X-Sp. Atk + Sparkling Aria
+- <ins> If used X-Speed and X-Sp. Atk: </ins>
+- > Sparkling Aria
+- <ins> Otherwise: </ins> 
+- > Moonblast
+::::
+:damage[Gastrodon's Mudbomb at different Sp. Def]{source="Popplio" special=true offensive=false evolution=2 movePower=65 stab=true effectiveness=1 level= evs=18 opponentLevel=47 opponentStat=98 combatStages=0--1}
+::::pokemon[Gastrodon]
+- <ins> +0 and Torrent: </ins> *Sparkling Aria x2
+- <ins> +2 and Torrent: </ins> *Sparkling Aria
+- <ins> At high Hp: </ins> (X-Sp. Atk if didn’t yet +) Psychic + Sparkling Aria
+::::
+:::::
+::::::
