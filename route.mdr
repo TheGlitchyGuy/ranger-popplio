@@ -1961,7 +1961,7 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 - <ins> Otherwise: </ins> 
 - > Moonblast
 ::::
-:damage[Gastrodon's Mudbomb at +0 Sp. Def]{source="Popplio" special=true offensive=false evolution=2 movePower=65 stab=true effectiveness=1 level=48 evs=18 opponentLevel=47 opponentStat=98 combatStages=0--2}
+:damage[Gastrodon's Mudbomb at +0 Sp. Def]{source="Popplio" special=true offensive=false evolution=2 movePower=65 stab=true effectiveness=1 level=48 evs=18 opponentLevel=47 opponentStat=98 combatStages=0--3}
 ::::pokemon[Gastrodon]
 - <ins> +0 and Torrent: </ins> *Sparkling Aria x2
 - <ins> +2 and Torrent: </ins> *Sparkling Aria
@@ -1993,7 +1993,7 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 - <ins> Otherwise: </ins> 
 - > Moonblast
 ::::
-:damage[Gastrodon's Mudbomb at different Sp. Def]{source="Popplio" special=true offensive=false evolution=2 movePower=65 stab=true effectiveness=1 level=48 evs=18 opponentLevel=47 opponentStat=98 combatStages=0--1}
+:damage[Gastrodon's Mudbomb at different Sp. Def]{source="Popplio" special=true offensive=false evolution=2 movePower=65 stab=true effectiveness=1 level=48 evs=18 opponentLevel=47 opponentStat=98 combatStages=0--3}
 ::::pokemon[Gastrodon]
 - <ins> +0 and Torrent: </ins> *Sparkling Aria x2
 - <ins> +2 and Torrent: </ins> *Sparkling Aria
