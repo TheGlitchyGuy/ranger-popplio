@@ -1951,7 +1951,7 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 - Sparkling Aria
 ::damage[Primarina's Sparkling Aria at Level 47 at +0]{source="Popplio" special=true evolution=2 movePower=90 stab=true effectiveness=2 otherPowerModifier=1.2 level=47 evs=31 opponentLevel=48 opponentStat=93 healthThreshold=168 theme=error}
 ::::
-::::pokemon[Flygon]{info="Need 73 to outpseed **WITH** X-speed" infoColor=blue}
+::::pokemon[Flygon]{info="Need 73 to outpseed WITH X-speed" infoColor=blue}
 - <ins> If didn’t use X-Speed and low HP: </ins> 
 - > Heal + Moonblast
 - <ins> If used X-Speed and no X-Sp. Atk and high HP: </ins>
@@ -1983,7 +1983,7 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 - Sparkling Aria
 ::damage[Primarina's Sparkling Aria at Level 47 at +0]{source="Popplio" special=true evolution=2 movePower=90 stab=true effectiveness=2 otherPowerModifier=1.2 level=47 evs=31 opponentLevel=48 opponentStat=93 healthThreshold=168 theme=error}
 ::::
-::::pokemon[Flygon]{info="Need 73 to outpseed **WITH** X-speed" infoColor=blue}
+::::pokemon[Flygon]{info="Need 73 to outpseed WITH X-speed" infoColor=blue}
 - <ins> If didn’t use X-Speed and low HP: </ins> 
 - > Heal + Moonblast
 - <ins> If used X-Speed and no X-Sp. Atk and high HP: </ins>
