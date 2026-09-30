@@ -1961,6 +1961,6 @@ IVs: 2 Def / 0 SpA / 29 SpD
 ::::pokemon[Flygon]
 <ins> - If didn’t use X-Speed and low HP: </ins> 
 - > Heal + Moonblast
-- If used X-Speed and no X-Sp. Atk and high HP:
+<ins> If used X-Speed and no X-Sp. Atk and high HP: </ins>
 - > X-Sp. Atk + Sparkling Aria
 
