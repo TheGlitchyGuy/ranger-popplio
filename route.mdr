@@ -1,5 +1,5 @@
 :::tracker{species="Popplio" baseStats="[[50,54,54,66,56,40], [60,69,69,91,81,50], [80,74,74,126,116,60]]" hiddenPower="true" generation="7"} 
-5: #remember EVs only take effect after battles end, so if the ev line isn't the same that in the spreadsheet it's because i put the ones after battles here
+5: # remember EVs only take effect after battles end, so if the ev line isn't the same that in the spreadsheet it's because i put the ones after battles here
 	6 -> 0, 0, 0, 0, 0, 1
 	7 -> 0, 1, 0, 0, 0, 2
 	8 -> 0, 1, 0, 0, 0, 4
