@@ -2001,3 +2001,49 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 ::::
 :::::
 ::::::
+
+- Get on Tauros after Lillie cutscene and do not stop in the cave
+
+:info[**FREE HEAL**]{color=pink}
+
+::::trainer[Veteran Harry]
+:::pokemon[Torkoal]
+- X-Sp. Atk + Sparkling Aria
+- > → Only cure paralysis if 75 or less Speed (0+ / 0 - 13 / 0 - 1)
+:::
+:::pokemon[Arcanine]
+- Sparkling Aria
+:::
+::::
+
+- Charge in front of the backpacker by hugging the left wall as much as possible without slowing down. 
+- (If you feel unconfident, dismount Tauros, go behind trainer and walk once she started moving)
+![Backpacker Skip](cave_skip.gif)
+
+- Head left into the other cave, then pass up with Mudsdale and exit the cave. Head left on the wooden bridge
+:info[**FREE HEAL**]{color=pink}
+
+- Pickup **Full Restore** after pushing the first boulder from above.
+- When climbing up the ladder stay low without wasting time (don’t get on Tauros until getting Fairium-Z).
+
+- After getting Fairium-Z, mount Tauros and dismount before arriving below trainer. Run below and once past him a good chunk, get on Tauros again.
+!(Post Fairium-Z movement)[post_fairy.gif]
+- At the tree, dismount Tauros and go down the tree. Once down, mount Tauros and go left
+
+:::::trainer[Ace Trainer Hiroshi]
+::::pokemon[Absol]
+
+:::if{source="Popplio" condition="spatk=(x/25+/#)"}
+- Sparkling Aria
+:::
+:::if{source="Popplio" condition="spatk=(#/24-/x)"}
+- Moonblast
+:::
+::::
+
+::::pokemon[Lapras]
+- If Absol got Sp. Atk drop with Me First & have a spare X-Sp. Atk, use it.
+- Moonblast x3
+- Encore Safeguard if can tank 2 Retaliates from Stoutland
+::::
+:::::
