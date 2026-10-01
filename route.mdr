@@ -1,5 +1,5 @@
 :::tracker{species="Popplio" baseStats="[[50,54,54,66,56,40], [60,69,69,91,81,50], [80,74,74,126,116,60]]" hiddenPower="true" generation="7"} 
-5:
+5:  --- [Keep in mind EVs only take effect after battles, so if an EV line isn't corresponding to the Google Sheet, then it's that in Github i've put the Evs after the end of the fight]
 	6 -> 0, 0, 0, 0, 0, 1
 	7 -> 0, 1, 0, 0, 0, 2
 	8 -> 0, 1, 0, 0, 0, 4
@@ -55,7 +55,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon a
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -2066,3 +2066,19 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 :damage[Stoutland's Retaliate does:]{source="Popplio" special=false offensive=false evolution=2 movePower=70 stab=true effectiveness=1 level=49 evs=32 opponentLevel=47 opponentStat=115}
 
 2 Retaliates do :calc[2 * floor(floor((floor(floor(161000 / def) / 50) + 2) * 85 / 100) * 1.5)]{source="Popplio" level=49 evolution=2 format=range} -:calc[2 * floor((floor(floor(161000 / def) / 50) + 2) * 1.5)]{source="Popplio" level=49 evolution=2 format=range}
+
+::::trainer[Veteran Heater]:
+:::pokemon[Stoutland]
+- X-Sp. Atk
+- X-Speed
+- Sparkling Aria
+:::
+:::pokemon[Tsareena]
+- Moonblast
+::damage[Primarina's Moonblast at Level 50]{source="Popplio" special=true evolution=2 movePower=95 stab=true effectiveness=1 level=50 evs=31 opponentLevel=47 opponentStat=104 healthThreshold=139 theme=error}
+:::
+:::pokemon[Klefki]
+- Sparkling Aria
+:::
+::::
+
