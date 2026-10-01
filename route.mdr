@@ -1,5 +1,5 @@
-:::tracker{species="Popplio" baseStats="[[50,54,54,66,56,40], [60,69,69,91,81,50], [80,74,74,126,116,60]]" hiddenPower="true" generation="7"}
-5:
+:::tracker{species="Popplio" baseStats="[[50,54,54,66,56,40], [60,69,69,91,81,50], [80,74,74,126,116,60]]" hiddenPower="true" generation="7"} 
+5: #remember EVs only take effect after battles end, so if the ev line isn't the same that in the spreadsheet it's because i put the ones after battles here
 	6 -> 0, 0, 0, 0, 0, 1
 	7 -> 0, 1, 0, 0, 0, 2
 	8 -> 0, 1, 0, 0, 0, 4
@@ -44,6 +44,10 @@
 	47 -> 10, 44, 30, 31, 18, 61
 	48 -> 12, 49, 30, 31, 18, 63
 	49 -> 14, 53, 32, 31, 18, 63
+	50 -> 14, 59, 33, 31, 18, 63
+	51 -> 14, 61, 36, 34, 18, 63
+	52 -> 17, 63, 44, 37, 21, 63 
+	53 -> 17, 63, 44, 37, 21, 63
 :::
 
 :::tracker{species="Lunala" baseStats="[[137,113,89,137,107,97]]"}
@@ -51,7 +55,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon
+# Pokémon Moon C
 ### Any% Primarina notes
 
 ----
@@ -2061,4 +2065,4 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 
 :damage[Stoutland's Retaliate does:]{source="Popplio" special=false offensive=false evolution=2 movePower=70 stab=true effectiveness=1 level=49 evs=32 opponentLevel=47 opponentStat=115}
 
-2 Retaliates do :calc[2 * floor(floor((floor(floor(161000 / def) / 50) + 2) * 85 / 100) * 1.5)]{source="Popplio" level=49 evolution=2 format=range}- :calc[2 * floor((floor(floor(161000 / def) / 50) + 2) * 1.5)]{source="Popplio" level=49 evolution=2 format=range}
+2 Retaliates do :calc[2 * floor(floor((floor(floor(161000 / def) / 50) + 2) * 85 / 100) * 1.5)]{source="Popplio" level=49 evolution=2 format=range} -:calc[2 * floor((floor(floor(161000 / def) / 50) + 2) * 1.5)]{source="Popplio" level=49 evolution=2 format=range}
