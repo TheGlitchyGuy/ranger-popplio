@@ -1,5 +1,6 @@
+# [Keep in mind EVs only take effect after battles, so if an EV line isn't corresponding to the Google Sheet, then it's that in Github i've put the Evs after the end of the fight]
 :::tracker{species="Popplio" baseStats="[[50,54,54,66,56,40], [60,69,69,91,81,50], [80,74,74,126,116,60]]" hiddenPower="true" generation="7"} 
-5:  --- [Keep in mind EVs only take effect after battles, so if an EV line isn't corresponding to the Google Sheet, then it's that in Github i've put the Evs after the end of the fight]
+5: 
 	6 -> 0, 0, 0, 0, 0, 1
 	7 -> 0, 1, 0, 0, 0, 2
 	8 -> 0, 1, 0, 0, 0, 4
