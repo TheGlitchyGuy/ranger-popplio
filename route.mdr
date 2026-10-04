@@ -56,7 +56,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon 
+# Pokémon Moon brownie
 ### Any% Primarina notes
 
 ----
@@ -1499,12 +1499,11 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - Sparkling Aria
 :::::
 
-
-  :::dropdown{title"Fast Swimmer Cycle" theme="info"}
-  - You can choose to go for this fast Cycle for the swimmer when leaving the house which requires precise movement and fast menuing
-  - Failing will likely result in him saying you, and he has a Tentacruel with Poison Attacks that 2 shots you
-  ![Violet's Fast Cycle GIF](fast_swimmer.gif)
-  :::
+:::dropdown{title="Fast Swimmer Cycle" theme="info"}
+- You can choose to go for this fast Cycle for the swimmer when leaving the house which requires precise movement and fast menuing
+- Failing will likely result in him saying you, and he has a Tentacruel with Poison Attacks that 2 shots you
+![Violet's Fast Cycle GIF](fast_swimmer.gif)
+:::
   
   - Use Sharpedo to smash water rocks.
   - On Route 17, go to the right on top of the hills.
