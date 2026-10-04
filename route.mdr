@@ -1092,7 +1092,7 @@ Poison damage: 10 with 28 - 31 HP IV
 :::if{source="Popplio" condition="spa=(x/x/28+)"}
 - Water Gun
 :::
-:::if{source="Popplio" condition="spa=(x/x/27-)"}
+:::if{source="Popplio" condition="spa=(#/#/27-)"}
 - Scald
 :::
 - If paralysed and did not burn Nosepass:
