@@ -2121,9 +2121,12 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 :::
 :::pokemon[Hakamo-o]
 - Psychic 
+:::
 :::pokemon[**Totem Kommo-o**]
 - Moonblast (if Protect, target Kommo-o again, then Hakamo-o AND consider 1 IV more defense IV)
 :::
 ::::
 
 :info[**FREE HEAL**]{color=pink}
+
+:damage[Mismagius's Shadow Ball does:]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
