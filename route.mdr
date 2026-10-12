@@ -2145,3 +2145,18 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 ::::pokemon[Lilligant]
 - <ins>+4/+5</ins> : Psychic
 - <ins>+3</ins> : Moonblast
+::::
+::::pokemon[Bewear]
+- Sparkling Aria
+::::
+::::pokemon[Mismagius]
+- Moonblast(Usually uses Pain Split, will rarely use Shadow Ball or Mystical Fire and is faster than you)
+::::
+::::pokemon[Milotic]
+- Moonblast
+::damage[Primarina's Moonblast at +3 Sp.Atk at Level 52]{source="Popplio" special=true evolution=2 movePower=95 effectiveness=1 level=52 evs=34 combatStages=3 opponentLevel=50 opponentStat=137 healthThreshold=170 theme=error}
+::::
+:::::
+
+:info[**FREE HEAL**]{color=pink}
+
