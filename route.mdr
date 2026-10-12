@@ -56,7 +56,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon 
+# Pokémon Moon a
 ### Any% Primarina notes
 
 ----
@@ -2154,7 +2154,7 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 ::::
 ::::pokemon[Milotic]
 - Moonblast
-::damage[Primarina's Moonblast at +3 Sp.Atk at Level 52]{source="Popplio" special=true evolution=2 movePower=95 effectiveness=1 level=52 evs=34 combatStages=3 opponentLevel=50 opponentStat=137 healthThreshold=170 theme=error}
+::damage[Primarina's Moonblast at +3 Sp.Atk at Level 52]{source="Popplio" special=true evolution=2 movePower=95 stab=true effectiveness=1 level=52 evs=34 combatStages=3 opponentLevel=50 opponentStat=137 healthThreshold=170 theme=error}
 ::::
 :::::
 
