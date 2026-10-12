@@ -2130,3 +2130,10 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 :info[**FREE HEAL**]{color=pink}
 
 :damage[Mismagius's Shadow Ball does:]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
+::::trainer[Lusamine]
+:::pokemon[Clefable]
+- X-Speed
+- Encore if turn 1 or 2 Cosmic Power
+- X-Sp. Atk x2
+- :info[Use Dire Hit if Encore’d Cosmic Power turn 1]{color=red}
+- :info[Can use 3rd X-Sp. Atk if needed (especially on lower Sp. Atk or if Sp. Atk drop)]{color=red}
