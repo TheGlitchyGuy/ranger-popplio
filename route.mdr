@@ -2168,6 +2168,267 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 - Equip the **Spell Tag** on Lunala.
 - Use the Rare Candy if 183 Sp. Atk or less (if in doubt, always use it, it doesn’t harm).
 
+:::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/23-24/x) || def=(x/x/30+) && hp=(x/25-26/x) || def=(x/x/28-29) && hp=(x/27-28/x) || def=(x/x/30+) && hp=(x/27-28/x) || def=(x/x/26-27) && hp=(x/29-30/x) || def=(x/x/28-29) && hp=(x/29-30/x) || def=(x/x/30+) && hp=(x/29-30/x) || def=(x/x/26-27) && hp=(x/31/x) || def=(x/x/28-29) && hp=(x/31/x) || def=(x/x/30+) && hp=(x/31/x)" theme=error}
+  - You have a 0% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/21-22/x) || def=(x/x/28-29) && hp=(x/25-26/x) || def=(x/x/26-27) && hp=(x/27-28/x) || def=(x/x/23-25) && hp=(x/31/x)" theme=error}
+  - You have a 0.2% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/26-27) && hp=(x/25-26/x) || def=(x/x/23-25) && hp=(x/29-30/x)" theme=error}
+  - You have a 0.5% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/20/x) || def=(x/x/28-29) && hp=(x/23-24/x)" theme=error}
+  - You have a 0.6% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/18-19/x) || def=(x/x/28-29) && hp=(x/21-22/x) || def=(x/x/26-27) && hp=(x/23-24/x) || def=(x/x/23-25) && hp=(x/27-28/x) || def=(x/x/21-22) && hp=(x/31/x)" theme=error}
+  - You have a 1.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/26-27) && hp=(x/21-22/x) || def=(x/x/23-25) && hp=(x/25-26/x) || def=(x/x/21-22) && hp=(x/29-30/x)" theme=error}
+  - You have a 2.6% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/16-17/x) || def=(x/x/28-29) && hp=(x/20/x)" theme=error}
+  - You have a 2.7% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/26-27) && hp=(x/20/x) || def=(x/x/23-25) && hp=(x/23-24/x) || def=(x/x/21-22) && hp=(x/27-28/x) || def=(x/x/19-20) && hp=(x/31/x)" theme=error}
+  - You have a 4.6% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/14-15/x) || def=(x/x/28-29) && hp=(x/18-19/x)" theme=error}
+  - You have a 4.8% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/23-25) && hp=(x/21-22/x) || def=(x/x/21-22) && hp=(x/25-26/x) || def=(x/x/19-20) && hp=(x/29-30/x)" theme=error}
+  - You have a 7.2% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/26-27) && hp=(x/18-19/x)" theme=error}
+  - You have a 7.4% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/12-13/x) || def=(x/x/28-29) && hp=(x/16-17/x)" theme=error}
+  - You have a 7.6% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/23-25) && hp=(x/20/x) || def=(x/x/21-22) && hp=(x/23-24/x) || def=(x/x/19-20) && hp=(x/27-28/x)" theme=error}
+  - You have a 10.6% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/26-27) && hp=(x/16-17/x)" theme=error}
+  - You have a 11% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/10-11/x) || def=(x/x/28-29) && hp=(x/14-15/x)" theme=error}
+  - You have a 11.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/31/x)" theme=error}
+  - You have a 14.4% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/23-25) && hp=(x/18-19/x) || def=(x/x/21-22) && hp=(x/21-22/x) || def=(x/x/19-20) && hp=(x/25-26/x)" theme=error}
+  - You have a 14.6% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/26-27) && hp=(x/14-15/x)" theme=error}
+  - You have a 15.4% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/28-29) && hp=(x/12-13/x)" theme=error}
+  - You have a 15.6% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/8-9/x)" theme=error}
+  - You have a 15.9% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/29-30/x)" theme=error}
+  - You have a 19% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/21-22) && hp=(x/20/x) || def=(x/x/19-20) && hp=(x/23-24/x)" theme=error}
+  - You have a 19.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/23-25) && hp=(x/16-17/x)" theme=error}
+  - You have a 19.6% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/26-27) && hp=(x/12-13/x)" theme=error}
+  - You have a 20.5% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/28-29) && hp=(x/10-11/x)" theme=error}
+  - You have a 20.8% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/6-7/x)" theme=error}
+  - You have a 21.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/31/x)" theme=error}
+  - You have a 22.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/27-28/x)" theme=error}
+  - You have a 24.5% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/21-22) && hp=(x/18-19/x) || def=(x/x/19-20) && hp=(x/21-22/x)" theme=error}
+  - You have a 24.8% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/23-25) && hp=(x/14-15/x)" theme=error}
+  - You have a 25.2% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/26-27) && hp=(x/10-11/x)" theme=error}
+  - You have a 26.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/28-29) && hp=(x/8-9/x)" theme=error}
+  - You have a 26.7% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/4-5/x)" theme=error}
+  - You have a 27.4% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/29-30/x)" theme=error}
+  - You have a 28.1% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/25-26/x)" theme=error}
+  - You have a 30.5% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/19-20) && hp=(x/20/x)" theme=error}
+  - You have a 30.8% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/21-22) && hp=(x/16-17/x)" theme=error}
+  - You have a 30.9% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/23-25) && hp=(x/12-13/x)" theme=error}
+  - You have a 31.6% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/26-27) && hp=(x/8-9/x)" theme=error}
+  - You have a 33% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/28-29) && hp=(x/6-7/x)" theme=error}
+  - You have a 33.4% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/27-28/x)" theme=error}
+  - You have a 34.5% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/23-24/x)" theme=error}
+  - You have a 37.2% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/19-20) && hp=(x/18-19/x)" theme=error}
+  - You have a 37.6% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/21-22) && hp=(x/14-15/x)" theme=error}
+  - You have a 37.9% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/23-25) && hp=(x/10-11/x)" theme=error}
+  - You have a 38.8% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/26-27) && hp=(x/6-7/x)" theme=error}
+  - You have a 40.4% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/28-29) && hp=(x/4-5/x)" theme=error}
+  - You have a 40.8% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/25-26/x)" theme=error}
+  - You have a 41.5% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/21-22/x)" theme=error}
+  - You have a 44.5% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/19-20) && hp=(x/16-17/x)" theme=error}
+  - You have a 44.9% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/21-22) && hp=(x/12-13/x)" theme=error}
+  - You have a 45.4% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/23-25) && hp=(x/8-9/x)" theme=error}
+  - You have a 46.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/26-27) && hp=(x/4-5/x)" theme=error}
+  - You have a 48.1% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/23-24/x)" theme=error}
+  - You have a 48.8% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/20/x)" theme=error}
+  - You have a 51.8% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/19-20) && hp=(x/14-15/x)" theme=error}
+  - You have a 52.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/21-22) && hp=(x/10-11/x)" theme=error}
+  - You have a 53% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/23-25) && hp=(x/6-7/x)" theme=error}
+  - You have a 54.1% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/21-22/x)" theme=error}
+  - You have a 56.2% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/18-19/x)" theme=error}
+  - You have a 59.2% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/19-20) && hp=(x/12-13/x)" theme=error}
+  - You have a 59.7% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/21-22) && hp=(x/8-9/x)" theme=error}
+  - You have a 60.7% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/23-25) && hp=(x/4-5/x)" theme=error}
+  - You have a 61.7% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/20/x)" theme=error}
+  - You have a 63.2% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/16-17/x)" theme=error}
+  - You have a 66.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/19-20) && hp=(x/10-11/x)" theme=error}
+  - You have a 66.7% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/21-22) && hp=(x/6-7/x)" theme=error}
+  - You have a 67.7% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/18-19/x)" theme=error}
+  - You have a 69.8% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/14-15/x)" theme=error}
+  - You have a 72.6% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/19-20) && hp=(x/8-9/x)" theme=error}
+  - You have a 73% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/21-22) && hp=(x/4-5/x)" theme=error}
+  - You have a 74% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/16-17/x)" theme=error}
+  - You have a 76% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/12-13/x)" theme=error}
+  - You have a 78.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/19-20) && hp=(x/6-7/x)" theme=error}
+  - You have a 78.7% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/14-15/x)" theme=error}
+  - You have a 81.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/10-11/x)" theme=error}
+  - You have a 83.4% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/19-20) && hp=(x/4-5/x)" theme=error}
+  - You have a 83.7% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/12-13/x)" theme=error}
+  - You have a 86% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/8-9/x)" theme=error}
+  - You have a 87.7% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/10-11/x)" theme=error}
+  - You have a 90% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/6-7/x)" theme=error}
+  - You have a 91.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/8-9/x)" theme=error}
+  - You have a 93.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/x/17-18) && hp=(x/4-5/x)" theme=error}
+  - You have a 94.3% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/6-7/x)" theme=error}
+  - You have a 95.9% chance to die by doing Version 2
+:::
+:::if{source="Popplio" condition="def=(x/30+/13-16) && hp=(x/4-5/x)" theme=error}
+  - You have a 97.8% chance to die by doing Version 2
+:::
+
+
+
+
+
+
 :::if{source="Popplio" condition="def=(x/26+/9+) && hp=(x/0/x) || def=(x/25/8) && hp=(x/1-2/x) || def=(x/26+/9+) && hp=(x/1-2/x) || def=(x/25/8) && hp=(x/3/x) || def=(x/26+/9+) && hp=(x/3/x) || def=(x/25/8) && hp=(x/4-5/x) || def=(x/26+/9+) && hp=(x/4-5/x) || def=(x/21-24/4-7) && hp=(x/6-7/x) || def=(x/25/8) && hp=(x/6-7/x) || def=(x/26+/9+) && hp=(x/6-7/x) || def=(x/19-20/2-3) && hp=(x/8-9/x) || def=(x/21-24/4-7) && hp=(x/8-9/x) || def=(x/25/8) && hp=(x/8-9/x) || def=(x/26+/9+) && hp=(x/8-9/x) || def=(x/19-20/2-3) && hp=(x/10-11/x) || def=(x/21-24/4-7) && hp=(x/10-11/x) || def=(x/25/8) && hp=(x/10-11/x) || def=(x/26+/9+) && hp=(x/10-11/x) || def=(x/15-18/0-1) && hp=(x/12-13/x) || def=(x/19-20/2-3) && hp=(x/12-13/x) || def=(x/21-24/4-7) && hp=(x/12-13/x) || def=(x/25/8) && hp=(x/12-13/x) || def=(x/26+/9+) && hp=(x/12-13/x) || def=(x/15-18/0-1) && hp=(x/14-15/x) || def=(x/19-20/2-3) && hp=(x/14-15/x) || def=(x/21-24/4-7) && hp=(x/14-15/x) || def=(x/25/8) && hp=(x/14-15/x) || def=(x/26+/9+) && hp=(x/14-15/x) || def=(x/15-18/0-1) && hp=(x/16-17/x) || def=(x/19-20/2-3) && hp=(x/16-17/x) || def=(x/21-24/4-7) && hp=(x/16-17/x) || def=(x/25/8) && hp=(x/16-17/x) || def=(x/26+/9+) && hp=(x/16-17/x) || def=(x/13-14/x) && hp=(x/18-19/x) || def=(x/15-18/0-1) && hp=(x/18-19/x) || def=(x/19-20/2-3) && hp=(x/18-19/x) || def=(x/21-24/4-7) && hp=(x/18-19/x) || def=(x/25/8) && hp=(x/18-19/x) || def=(x/26+/9+) && hp=(x/18-19/x) || def=(x/13-14/x) && hp=(x/20/x) || def=(x/15-18/0-1) && hp=(x/20/x) || def=(x/19-20/2-3) && hp=(x/20/x) || def=(x/21-24/4-7) && hp=(x/20/x) || def=(x/25/8) && hp=(x/20/x) || def=(x/26+/9+) && hp=(x/20/x) || def=(x/13-14/x) && hp=(x/21-22/x) || def=(x/15-18/0-1) && hp=(x/21-22/x) || def=(x/19-20/2-3) && hp=(x/21-22/x) || def=(x/21-24/4-7) && hp=(x/21-22/x) || def=(x/25/8) && hp=(x/21-22/x) || def=(x/26+/9+) && hp=(x/21-22/x) || def=(x/11-12/x) && hp=(x/23-24/x) || def=(x/13-14/x) && hp=(x/23-24/x) || def=(x/15-18/0-1) && hp=(x/23-24/x) || def=(x/19-20/2-3) && hp=(x/23-24/x) || def=(x/21-24/4-7) && hp=(x/23-24/x) || def=(x/25/8) && hp=(x/23-24/x) || def=(x/26+/9+) && hp=(x/23-24/x) || def=(28+/8-10/x) && hp=(x/25-26/x) || def=(x/11-12/x) && hp=(x/25-26/x) || def=(x/13-14/x) && hp=(x/25-26/x) || def=(x/15-18/0-1) && hp=(x/25-26/x) || def=(x/19-20/2-3) && hp=(x/25-26/x) || def=(x/21-24/4-7) && hp=(x/25-26/x) || def=(x/25/8) && hp=(x/25-26/x) || def=(x/26+/9+) && hp=(x/25-26/x) || def=(28+/8-10/x) && hp=(x/27-28/x) || def=(x/11-12/x) && hp=(x/27-28/x) || def=(x/13-14/x) && hp=(x/27-28/x) || def=(x/15-18/0-1) && hp=(x/27-28/x) || def=(x/19-20/2-3) && hp=(x/27-28/x) || def=(x/21-24/4-7) && hp=(x/27-28/x) || def=(x/25/8) && hp=(x/27-28/x) || def=(x/26+/9+) && hp=(x/27-28/x) || def=(26-27/6-7/x) && hp=(x/29-30/x) || def=(28+/8-10/x) && hp=(x/29-30/x) || def=(x/11-12/x) && hp=(x/29-30/x) || def=(x/13-14/x) && hp=(x/29-30/x) || def=(x/15-18/0-1) && hp=(x/29-30/x) || def=(x/19-20/2-3) && hp=(x/29-30/x) || def=(x/21-24/4-7) && hp=(x/29-30/x) || def=(x/25/8) && hp=(x/29-30/x) || def=(x/26+/9+) && hp=(x/29-30/x) || def=(26-27/6-7/x) && hp=(x/31/x) || def=(28+/8-10/x) && hp=(x/31/x) || def=(x/11-12/x) && hp=(x/31/x) || def=(x/13-14/x) && hp=(x/31/x) || def=(x/15-18/0-1) && hp=(x/31/x) || def=(x/19-20/2-3) && hp=(x/31/x) || def=(x/21-24/4-7) && hp=(x/31/x) || def=(x/25/8) && hp=(x/31/x) || def=(x/26+/9+) && hp=(x/31/x)" theme=error}
   - You have a 0% chance to die by doing Version 3
 :::
