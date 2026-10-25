@@ -1,4 +1,4 @@
-<!--  [Keep in mind EVs only take effect after battles, so if an EV line isn't corresponding to the Google Sheet, then it's that in Github i've put the Evs after the end of the fight] -->
+<!--  [Keep in mind EVs only take effect after battles, so if an EV line isn't corresponding to the Google Sheet, then it's that in Github i've put the EVs after the end of the fight] -->
 :::tracker{species="Popplio" baseStats="[[50,54,54,66,56,40], [60,69,69,91,81,50], [80,74,74,126,116,60]]" hiddenPower="true" generation="7"} 
 5: 
 	6 -> 0, 0, 0, 0, 0, 1
@@ -2168,39 +2168,75 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 - Equip the **Spell Tag** on Lunala.
 
 **Enter in your Level 55 Sp.Atk and Speed Stats**
-:::if{source="Lunala" condition="spa=(x/x/21+) && spe=(21+/0+/0+)"}
-[Do Not Candy - Early Acerola with no Candy]
-:::
-:::if{source="Lunala" condition="spa=(x/x/21+) && spe=(16-20/x/x)"}
-[Use a Rare Candy! - Early Acerola with Candy]
-:::
-:::if{source="Lunala" condition="spa=(x/x/16-20) && spe=(21+/0+/0+)"}
-[Use a Rare Candy! - Early Acerola with Candy]
-:::
-:::if{source="Lunala" condition="spa=(x/x/16-20) && spe=(16-20/x/x)"}
-[Use a Rare Candy! - Early Acerola with Candy]
-:::
-:::if{source="Lunala" condition="spa=(x/x/16+) && spe=(13-15/x/x)"}
-[Use a Rare Candy! - Late Acerola with Candy]
-:::
-:::if{source="Lunala" condition="spa=(x/26+/0-15) && spe=(16+/0+/0+)"}
-[Use a Rare Candy! - Late Acerola with Candy]
-:::
-:::if{source="Lunala" condition="spa=(x/26+/0-15) && spe=(13-15/x/x)"}
-[Use a Rare Candy! - Late Acerola with Candy]
-:::
-:::if{source="Lunala" condition="spa=(x/9-13/x)"}
-[Use a Rare Candy! - For final Hau fight, if you are doing Version 1--> do Version 1.5; Old E4 Strats!]
-:::
+
+<!-- Base values (fallback if no condition below matches). The blocks below overwrite them automatically.
+     Order matters: if several blocks match (IVs not narrowed yet), the LAST one in the file wins.
+     So: Old E4 first, then Late Acerola, then Early Acerola. -->
+::variable{name="lunalaCandy" type="boolean" title="Did you candy Lunala?" defaultValue="false" theme="faint"}
+::variable{name="E4Route" type="select" title="Which E4 route are you doing?" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Old E4" theme="faint"}
+
 :::if{source="Lunala" condition="spa=(0+/14-25/x)|| spa=(x/0-8/x)"}
 [Do Not Candy - Old E4 Strats]
-:::
-:::if{source="Lunala" condition="spa=(0+/0-8/x)&& spe=(0-12/x/x)"}
-[Do Not Candy - Old E4 Strats]
-:::
-:::if{source="Lunala" condition="spa=(x/14+/0+)&& spe=(0-12/x/x)"}
-[Do Not Candy - Old E4 Strats]
+::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="false" theme="faint"}
+::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Old E4" theme="faint"}
 :::
 
-::variable{name="lunalaCandy" type="boolean" title="Did you candy" defaultValue="false"}
+:::if{source="Lunala" condition="spa=(0+/0-8/x)&& spe=(0-12/x/x)"}
+[Do Not Candy - Old E4 Strats]
+::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="false" theme="faint"}
+::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Old E4" theme="faint"}
+:::
+
+:::if{source="Lunala" condition="spa=(x/14+/0+)&& spe=(0-12/x/x)"}
+[Do Not Candy - Old E4 Strats]
+::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="false" theme="faint"}
+::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Old E4" theme="faint"}
+:::
+
+:::if{source="Lunala" condition="spa=(x/9-13/x)"}
+[Use a Rare Candy! - For final Hau fight, if you are doing Version 1--> do Version 1.5; Old E4 Strats!]
+::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="true" theme="faint"}
+::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Old E4" theme="faint"}
+:::
+
+:::if{source="Lunala" condition="spa=(x/x/16+) && spe=(13-15/x/x)"}
+[Use a Rare Candy! - Late Acerola with Candy]
+::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="true" theme="faint"}
+::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Late Acerola" theme="faint"}
+:::
+
+:::if{source="Lunala" condition="spa=(x/26+/0-15) && spe=(16+/0+/0+)"}
+[Use a Rare Candy! - Late Acerola with Candy]
+::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="true" theme="faint"}
+::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Late Acerola" theme="faint"}
+:::
+
+:::if{source="Lunala" condition="spa=(x/26+/0-15) && spe=(13-15/x/x)"}
+[Use a Rare Candy! - Late Acerola with Candy]
+::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="true" theme="faint"}
+::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Late Acerola" theme="faint"}
+:::
+
+:::if{source="Lunala" condition="spa=(x/x/21+) && spe=(21+/0+/0+)"}
+[Do Not Candy - Early Acerola with no Candy]
+::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="false" theme="faint"}
+::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Early Acerola" theme="faint"}
+:::
+
+:::if{source="Lunala" condition="spa=(x/x/21+) && spe=(16-20/x/x)"}
+[Use a Rare Candy! - Early Acerola with Candy]
+::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="true" theme="faint"}
+::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Early Acerola" theme="faint"}
+:::
+
+:::if{source="Lunala" condition="spa=(x/x/16-20) && spe=(21+/0+/0+)"}
+[Use a Rare Candy! - Early Acerola with Candy]
+::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="true" theme="faint"}
+::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Early Acerola" theme="faint"}
+:::
+
+:::if{source="Lunala" condition="spa=(x/x/16-20) && spe=(16-20/x/x)"}
+[Use a Rare Candy! - Early Acerola with Candy]
+::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="true" theme="faint"}
+::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Early Acerola" theme="faint"}
 :::
