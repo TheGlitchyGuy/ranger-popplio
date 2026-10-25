@@ -2166,7 +2166,20 @@ Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 2
 - Teach :info[Psychic]{color=pink} over Night Daze (Slot 3) in the **Restore menu**, so in Pokemon menu
 - Check :info[**Sp. Atk, Speed**]{color=red}, Sp. Def, and Defense while teaching.
 - Equip the **Spell Tag** on Lunala.
-- Use the Rare Candy if 183 Sp. Atk or less (if in doubt, always use it, it doesn’t harm).
+- Use the Rare Candy **if it tells you too**.
+
+
+
+
+
+:::card{theme=info}
+- Info:	
+	- Lunala’s ability **halves damage dealt by opponents** when Lunala is at full HP.
+	- **Moongeist Beam** is a Mold Breaker move and therefore **ignores Sturdy**.
+:::
+
+:damage[Weavile's Ice Shard at Full HP(Shadow Shield) does:]{source="Lunala" special=false offensive=false movePower=40 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
+
 
 :::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/23-24/x) || def=(x/x/30+) && hp=(x/25-26/x) || def=(x/x/28-29) && hp=(x/27-28/x) || def=(x/x/30+) && hp=(x/27-28/x) || def=(x/x/26-27) && hp=(x/29-30/x) || def=(x/x/28-29) && hp=(x/29-30/x) || def=(x/x/30+) && hp=(x/29-30/x) || def=(x/x/26-27) && hp=(x/31/x) || def=(x/x/28-29) && hp=(x/31/x) || def=(x/x/30+) && hp=(x/31/x)" theme=error}
   - You have a 0% chance to die by doing Version 2
