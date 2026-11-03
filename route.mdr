@@ -2247,4 +2247,4 @@ Use a Rare Candy! - Early Acerola with Candy
 	- **Moongeist Beam** is a Mold Breaker move and therefore **ignores Sturdy**.
 :::
 :damage[Weavile's Ice Shard at Full HP(Shadow Shield) does:]{source="Lunala" special=false offensive=false movePower=40 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
-:damage[Weavile's Ice Shard at Full HP(Shadow Shield) does:]{source="Lunala" special=false offensive=false movePower=80 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
+:damage[Weavile's Ice Shard at any other HP does:]{source="Lunala" special=false offensive=false movePower=80 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
