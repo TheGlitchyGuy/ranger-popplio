@@ -2240,4 +2240,11 @@ Use a Rare Candy! - Early Acerola with Candy
 Use a Rare Candy! - Early Acerola with Candy
 ::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="true" theme="faint"}
 ::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Early Acerola" theme="faint"}
+
+:::card{theme=info}
+- Info:	
+	- Lunala’s ability **halves damage dealt by opponents** when Lunala is at full HP.
+	- **Moongeist Beam** is a Mold Breaker move and therefore **ignores Sturdy**.
 :::
+:damage[Weavile's Ice Shard at Full HP(Shadow Shield) does:]{source="Lunala" special=false offensive=false movePower=40 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
+:damage[Weavile's Ice Shard at Full HP(Shadow Shield) does:]{source="Lunala" special=false offensive=false movePower=80 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
