@@ -56,7 +56,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon a
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -2246,5 +2246,5 @@ Use a Rare Candy! - Early Acerola with Candy
 	- Lunala’s ability **halves damage dealt by opponents** when Lunala is at full HP.
 	- **Moongeist Beam** is a Mold Breaker move and therefore **ignores Sturdy**.
 :::
-:damage[Weavile's Ice Shard at Full HP(Shadow Shield) does:]{source="Lunala" special=false offensive=false movePower=40 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
-:damage[Weavile's Ice Shard at any other HP does:]{source="Lunala" special=false offensive=false movePower=80 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
+:damage[Weavile's Ice Shard at Full HP(Shadow Shield) does:]{source="Lunala" special=false offensive=false movePower=20 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
+:damage[Weavile's Ice Shard at any other HP does:]{source="Lunala" special=false offensive=false movePower=40 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
