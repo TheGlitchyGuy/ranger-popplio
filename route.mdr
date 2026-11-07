@@ -2240,6 +2240,7 @@ Use a Rare Candy! - Early Acerola with Candy
 Use a Rare Candy! - Early Acerola with Candy
 ::variable{name="lunalaCandy" type="boolean" title="Candy on Lunala?" defaultValue="true" theme="faint"}
 ::variable{name="E4Route" type="select" title="E4 Route" options='["Old E4", "Late Acerola", "Early Acerola"]' defaultValue="Early Acerola" theme="faint"}
+:::
 
 :::card{theme=info}
 - Info:	
@@ -2275,5 +2276,5 @@ Use a Rare Candy! - Early Acerola with Candy
 :::pokemon[Lucario]{info="Aura Sphere can't hit Lunala (Ghost)" infoColor=gray}
 - Psychic
 :::
-:::
+::::
 
