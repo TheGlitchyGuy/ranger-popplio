@@ -2246,5 +2246,34 @@ Use a Rare Candy! - Early Acerola with Candy
 	- Lunala’s ability **halves damage dealt by opponents** when Lunala is at full HP.
 	- **Moongeist Beam** is a Mold Breaker move and therefore **ignores Sturdy**.
 :::
-:damage[Weavile's Ice Shard at Full HP(Shadow Shield) does:]{source="Lunala" special=false offensive=false movePower=20 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
-:damage[Weavile's Ice Shard at any other HP does:]{source="Lunala" special=false offensive=false movePower=40 stab=true effectiveness=1 level=52 evs=18 opponentLevel=50 opponentStat=172}
+
+:::if{source="Lunala" condition="!$lunalaCandy"}
+:damage[Weavile's Ice Shard at full HP (Shadow Shield) does:]{source="Lunala" special=false offensive=false movePower=40 stab=true effectiveness=1 otherModifier=0.5 level=55 evs=0 opponentLevel=52 opponentStat=178}
+:damage[Weavile's Ice Shard at any other HP does:]{source="Lunala" special=false offensive=false movePower=40 stab=true effectiveness=1 level=55 evs=0 opponentLevel=52 opponentStat=178}
+:damage[Crobat's Acrobatics not at full HP (Shadow Shield) does:]{source="Lunala" special=false offensive=false movePower=110 stab=true effectiveness=1 level=55 evs=0 opponentLevel=52 opponentStat=106}
+:::
+
+:::if{source="Lunala" condition="$lunalaCandy"}
+:damage[Weavile's Ice Shard at full HP (Shadow Shield) does:]{source="Lunala" special=false offensive=false movePower=40 stab=true effectiveness=1 otherModifier=0.5 level=56 evs=0 opponentLevel=52 opponentStat=178}
+:damage[Weavile's Ice Shard at any other HP does:]{source="Lunala" special=false offensive=false movePower=40 stab=true effectiveness=1 level=56 evs=0 opponentLevel=52 opponentStat=178}
+:damage[Crobat's Acrobatics not at full HP does:]{source="Lunala" special=false offensive=false movePower=110 stab=true effectiveness=1 level=56 evs=0 opponentLevel=52 opponentStat=106}
+:::
+
+::::trainer[Pokémon Trainer Gladion]
+:::pokemon[Crobat]{info="Heal as needed during setup" infoColor=blue}
+- X-Sp. Atk x2
+- X-Speed
+- Max Potion if you can be killed by Ice Shard (under 50 HP)
+- Shadow Ball
+:::
+:::pokemon[Silvally]
+- Psychic
+:::
+:::pokemon[Weavile]{info="Ice Shard has priority" infoColor=red}
+- Moongeist Beam
+:::
+:::pokemon[Lucario]{info="Aura Sphere can't hit Lunala (Ghost)" infoColor=gray}
+- Psychic
+:::
+:::
+
