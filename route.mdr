@@ -2989,5 +2989,117 @@ Pick the **first** condition of the list below that applies to you:
 :::
 ::::
 
-::variable{name="hauVersion" type="select" title="Which version of the Hau fight are you doing?" options='["Version 1", "Version 2", "Version 3", "Version 4"]'}
+::::::if{source="Popplio" condition="$hauVersion == 'Version 1'"}
+:info[**VERSION 1** — Heal Lunala to full!]{color=pink}
+
+:::::trainer[Pokémon Trainer Hau]
+::::pokemon[Raichu]
+- Shadow Ball
+::::
+::::pokemon[Incineroar]
+- Switch to Primarina
+:::if{source="Popplio" condition="speed=(31/12+/0+)"}
+- 82+ Speed: **X-Sp. Atk**
+:::
+:::if{source="Popplio" condition="speed=(30-/11-/x)"}
+- 81- Speed: **X-Speed**
+:::
+- Sparkling Aria
+::::
+::::pokemon[Komala]{info="Ranges out of Torrent" infoColor=red}
+- Sparkling Aria
+::damage[Primarina's Sparkling Aria at +2 (Mystic Water)]{source="Popplio" special=true evolution=2 movePower=90 stab=true effectiveness=1 otherPowerModifier=1.2 combatStages=2 level=53 evs=37 opponentLevel=53 opponentStat=113 healthThreshold=181 theme=error}
+- <ins> If killed by Komala after Sparkling Aria: </ins>
+- > Switch to Lunala
+- > Heal to full (keep healing until Sucker Punch)
+- > Psychic
+::variable{name="primaDiedHau" type="boolean" title="Did Komala KO Primarina?" defaultValue="false"}
+::::
+::::pokemon[Leafeon]
+- (Moonblast)
+- Switch to Lunala
+- Moongeist Beam + Psychic
+::::
+:::::
+::::::
+
+::::::if{source="Popplio" condition="$hauVersion == 'Version 2'"}
+:info[**VERSION 2** — Do not heal!]{color=pink}
+
+:damage[Leafeon's Quick Attack does:]{source="Popplio" special=false offensive=false evolution=2 movePower=40 stab=false effectiveness=1 level=53 evs=44 opponentLevel=53 opponentStat=129}
+
+:::::trainer[Pokémon Trainer Hau]
+::::pokemon[Raichu]
+- Shadow Ball
+::::
+::::pokemon[Incineroar]
+- Switch to Primarina
+- X-Sp. Atk
+- Max Potion
+- X-Speed
+- Sparkling Aria
+::::
+::::pokemon[Komala]
+- Sparkling Aria
+::::
+::::pokemon[Leafeon]
+- <ins> If you can die to Quick Attack: </ins>
+- > Energy Root OR Max Potion
+- Moonblast
+::::
+:::::
+::::::
+
+::::::if{source="Popplio" condition="$hauVersion == 'Version 3'"}
+:info[**VERSION 3** — Do not heal!]{color=pink}
+
+:info[If Primarina dies: **Max Revive** on Lunala and re-setup (reset if it wasn't Darkest Lariat).]{color=grey}
+
+:::::trainer[Pokémon Trainer Hau]
+::::pokemon[Raichu]
+- Shadow Ball
+::::
+::::pokemon[Incineroar]
+- Switch to Primarina
+- Encore
+- X-Sp. Atk
+- Max Potion
+- X-Speed
+- Sparkling Aria
+::::
+::::pokemon[Komala]
+- Sparkling Aria
+::::
+::::pokemon[Leafeon]
+- Moonblast
+::::
+:::::
+::::::
+
+::::::if{source="Popplio" condition="$hauVersion == 'Version 4'"}
+:info[**VERSION 4** — Heal Lunala to full!]{color=pink}
+
+:::::trainer[Pokémon Trainer Hau]
+::::pokemon[Raichu]
+- X-Speed
+- (Cosmic Power for safety)
+- X-Sp. Atk x3
+- Max Potion / Full Restore
+- Shadow Ball
+::::
+::::pokemon[Incineroar]
+- Moongeist Beam
+::::
+::::pokemon[Komala]
+- Psychic
+::::
+::::pokemon[Leafeon]
+- Psychic
+::::
+:::::
+::::::
+
+:info[**FREE HEAL**]{color=pink}
+
+- Head to the Elite 4.
 
