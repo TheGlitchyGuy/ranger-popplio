@@ -56,7 +56,7 @@
    56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon a
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -2988,6 +2988,8 @@ Pick the **first** condition of the list below that applies to you:
   - You have a 100% chance to die by doing Version 3
 :::
 ::::
+
+::variable{name="hauVersion" type="select" title="Which version of the Hau fight are you doing?" options='["Version 1", "Version 2", "Version 3", "Version 4"]'}
 
 ::::::if{source="Popplio" condition="$hauVersion == 'Version 1'"}
 :info[**VERSION 1** — Heal Lunala to full!]{color=pink}
