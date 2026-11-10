@@ -2314,7 +2314,7 @@ Pick the **first** condition of the list below that applies to you:
 
 :info[If you got Protect on Kommo-o, assume that you have one additional Defense IV.]{color=blue}
 
-::::dropdown{title="Version 2: your chance to die" theme="warning"}
+::::dropdown{title="Version 2: your chance to die(needs almost max +def)" theme="warning"}
 :::if{source="Popplio" condition="def=(x/x/30+) && hp=(x/23-24/x) || def=(x/x/30+) && hp=(x/25-26/x) || def=(x/x/28-29) && hp=(x/27-28/x) || def=(x/x/30+) && hp=(x/27-28/x) || def=(x/x/26-27) && hp=(x/29-30/x) || def=(x/x/28-29) && hp=(x/29-30/x) || def=(x/x/30+) && hp=(x/29-30/x) || def=(x/x/26-27) && hp=(x/31/x) || def=(x/x/28-29) && hp=(x/31/x) || def=(x/x/30+) && hp=(x/31/x)" theme=error}
   - You have a 0% chance to die by doing Version 2
 :::
