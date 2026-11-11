@@ -3195,3 +3195,41 @@ Pick the **first** condition of the list below that applies to you:
 
 - Heal Lunala and Primarina if Hariyama didn't use Fake Out and you took more damage.
 :::::::
+
+::::::if{source="Popplio" condition="$E4Route == 'Classic'"}
+:::if{source="Popplio" condition="$hauVersion == 'Version 4'"}
+:damage[Palossand's Giga Drain does:]{source="Popplio" special=true offensive=false evolution=2 movePower=75 stab=false effectiveness=2 level=54 evs=21 opponentLevel=55 opponentStat=166}
+:::
+:::if{source="Popplio" condition="$hauVersion == 'Version 1' || $hauVersion == 'Version 2' || $hauVersion == 'Version 3'"}
+:damage[Palossand's Giga Drain does:]{source="Popplio" special=true offensive=false evolution=2 movePower=75 stab=false effectiveness=2 level=55 evs=21 opponentLevel=55 opponentStat=166}
+:::
+:damage[Froslass' Ice Shard does:]{source="Popplio" special=false offensive=false evolution=2 movePower=40 stab=true effectiveness=0.5 level=55 evs=49 opponentLevel=54 opponentStat=99}
+
+::::::trainer[Elite Four Acerola]
+:::::pokemon[Sableye]{info="Fake Out / Confuse Ray" infoColor=blue}
+- X-Speed
+- <ins> If Fake Out: </ins>
+- > Encore
+::::if{source="Popplio" condition="speed=(31-/15-/1-)"}
+- > X-Speed 
+::::
+- X-Sp. Atk x2
+- <ins> If No Fake Out: </ins>
+- > Full Restore if Confused / Max Potion
+- → Use a 2nd X-Speed if needed and you can't live Giga Drain + Ice Shard.
+- Sparkling Aria
+:::::
+:::::pokemon[Dhelmise]
+- Moonblast
+:::::
+:::::pokemon[Palossand]{info="Ghostium Z" infoColor=red}
+- Moonblast
+:::::
+:::::pokemon[Froslass]{info="Has Ice Shard (priority)" infoColor=red}
+- Moonblast
+:::::
+:::::pokemon[Drifblim]
+- Sparkling Aria
+:::::
+::::::
+:::::::
