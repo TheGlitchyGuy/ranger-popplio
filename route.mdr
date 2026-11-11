@@ -2990,6 +2990,7 @@ Pick the **first** condition of the list below that applies to you:
 ::::
 
 ::variable{name="hauVersion" type="select" title="Which version of the Hau fight are you doing?" options='["Version 1", "Version 2", "Version 3", "Version 4"]'}
+::variable{name="primaDiedHau" type="boolean" title="Version 1 only: did Komala KO Primarina? (leave unticked otherwise)" defaultValue="false"}
 
 ::::::if{source="Popplio" condition="$hauVersion == 'Version 1'"}
 :info[**VERSION 1** — Heal Lunala to full!]{color=pink}
@@ -3015,7 +3016,7 @@ Pick the **first** condition of the list below that applies to you:
 - > Switch to Lunala
 - > Heal to full (keep healing until Sucker Punch)
 - > Psychic
-::variable{name="primaDiedHau" type="boolean" title="Did Komala KO Primarina?" defaultValue="false"}
+- > **Go back up and tick "did Komala KO Primarina?" (under the version choice)**
 ::::
 ::::pokemon[Leafeon]
 - (Moonblast)
