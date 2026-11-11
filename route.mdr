@@ -3166,3 +3166,32 @@ Pick the **first** condition of the list below that applies to you:
 
 - Switch Primarina to the front of the party.
 :::::::
+
+:::::::if{source="Popplio" condition="$E4Route == 'Classic'"}
+::::::trainer[Elite Four Hala]
+:::::pokemon[Hariyama]{info="Fake Out / Close Combat / Knock Off" infoColor=blue}
+- X-Sp. Atk
+- <ins> If Fake Out: </ins>
+- > Encore
+- > X-Speed
+- Moonblast
+:::::
+:::::pokemon[Crabominable]
+- Psychic
+:::::
+:::::pokemon[Primeape]
+::::if{source="Popplio" condition="speed=(31-/20-/5-)"}
+- If you didn't X-Speed yet: **X-Speed** (88- Speed: Poliwrath outspeeds or ties)
+::::
+- Psychic
+:::::
+:::::pokemon[Bewear]
+- Sparkling Aria
+:::::
+:::::pokemon[Poliwrath]
+- Moonblast
+:::::
+::::::
+
+- Heal Lunala and Primarina if Hariyama didn't use Fake Out and you took more damage.
+:::::::
