@@ -3232,4 +3232,56 @@ Pick the **first** condition of the list below that applies to you:
 - Sparkling Aria
 :::::
 ::::::
+
+:info[**Kahili:** heal Primarina and Lunala if Primarina can die to 2 Steel Wings. If you got Protect on Kommo-o, add 2 Defense IVs.]{color=blue}
+
+::::if{source="Popplio" condition="$E4Route == 'Classic'"}
+:::if{source="Popplio" condition="($hauVersion == 'Version 1' && !$primaDiedHau) || $hauVersion == 'Version 2' || $hauVersion == 'Version 3'"}
+:damage[Skarmory's Steel Wing does:]{source="Popplio" special=false offensive=false evolution=2 movePower=70 stab=true effectiveness=1 level=56 evs=52 opponentLevel=54 opponentStat=142}
+:::
+:::if{source="Popplio" condition="($hauVersion == 'Version 1' && $primaDiedHau) || $hauVersion == 'Version 4'"}
+:damage[Skarmory's Steel Wing does:]{source="Popplio" special=false offensive=false evolution=2 movePower=70 stab=true effectiveness=1 level=55 evs=50 opponentLevel=54 opponentStat=142}
+:::
+::::
+
+::::if{source="Popplio" condition="$E4Route == 'Early Acerola' || $E4Route == 'Late Acerola'"}
+:::if{source="Popplio" condition="($hauVersion == 'Version 1' && !$primaDiedHau) || $hauVersion == 'Version 2' || $hauVersion == 'Version 3'"}
+:damage[Skarmory's Steel Wing does:]{source="Popplio" special=false offensive=false evolution=2 movePower=70 stab=true effectiveness=1 level=55 evs=49 opponentLevel=54 opponentStat=142}
+:::
+:::if{source="Popplio" condition="($hauVersion == 'Version 1' && $primaDiedHau) || $hauVersion == 'Version 4'"}
+:damage[Skarmory's Steel Wing does:]{source="Popplio" special=false offensive=false evolution=2 movePower=70 stab=true effectiveness=1 level=54 evs=47 opponentLevel=54 opponentStat=142}
+:::
+::::
+
+::::::trainer[Elite Four Kahili]
+:::::pokemon[Skarmory]{info="Steel Wing" infoColor=red}
+- X-Speed x2
+::::if{source="Popplio" condition="$E4Route == 'Classic' && speed=(x/x/16+)"}
+- → **Only 1 X-Speed**: 99+ Speed on Crobat
+::::
+::::if{source="Popplio" condition="($E4Route == 'Early Acerola' || $E4Route == 'Late Acerola') && ($hauVersion == 'Version 1' || $hauVersion == 'Version 2' || $hauVersion == 'Version 3') && speed=(x/x/20+)"}
+- → **Only 1 X-Speed**: 99+ Speed on Crobat
+::::
+::::if{source="Popplio" condition="($E4Route == 'Early Acerola' || $E4Route == 'Late Acerola') && $hauVersion == 'Version 4' && speed=(x/x/23+)"}
+- → **Only 1 X-Speed**: 99+ Speed on Crobat
+::::
+- Moonblast
+- X-Sp. Atk (heal before if needed)
+- Sparkling Aria
+:::::
+:::::pokemon[Mandibuzz]
+- Moonblast
+:::::
+:::::pokemon[Crobat]
+- Sparkling Aria
+:::::
+:::::pokemon[Toucannon]{info="Flyinium Z" infoColor=red}
+- Moonblast
+:::::
+:::::pokemon[Oricorio]
+- Sparkling Aria
+:::::
+::::::
+
+- Heal Primarina and Lunala to full if not done so yet.
 :::::::
