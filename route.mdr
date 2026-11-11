@@ -3105,3 +3105,64 @@ Pick the **first** condition of the list below that applies to you:
 
 - Head to the Elite 4.
 
+:::::::if{source="Lunala" condition="$E4Route == 'Classic'"}
+:info[**ELITE FOUR — Classic route:** Olivia [Lunala] → Hala [Primarina] → Acerola [Primarina]]{color=pink}
+
+::::::trainer[Elite Four Olivia]
+:::::pokemon[Relicanth]{info="Hydro Pump / Ancient Power / Yawn" infoColor=blue}
+::::if{source="Lunala" condition="!$lunalaCandy || $hauVersion == 'Version 2' || $hauVersion == 'Version 3'"}
+:::if{source="Lunala" condition="speed=(26-/3-/x)"}
+- X-Speed 
+:::
+::::
+::::if{source="Lunala" condition="$lunalaCandy && ($hauVersion == 'Version 1' || $hauVersion == 'Version 4')"}
+:::if{source="Lunala" condition="speed=(22-/x/x)"}
+- X-Speed (115- Speed: Relicanth outspeeds or ties)
+:::
+::::
+- X-Sp. Atk
+- <ins> If not Yawned: </ins>
+- > Shadow Ball
+- <ins> If Yawned: </ins>
+- > X-Sp. Atk (x2 if not going for the +4 range on Probopass)
+- > Heal Powder
+- > Shadow Ball
+:::::
+:::::pokemon[Lycanroc]{info="Rockium Z" infoColor=red}
+- <ins> +2: </ins> Moongeist Beam
+::::if{source="Lunala" condition="!$lunalaCandy"}
+::damage[Moongeist Beam at +2 vs Lycanroc]{source="Lunala" special=true movePower=100 stab=true effectiveness=1 otherPowerModifier=1.2 combatStages=2 level=56 evs=1 opponentLevel=55 opponentStat=104 healthThreshold=210}
+::::
+::::if{source="Lunala" condition="$lunalaCandy"}
+::damage[Moongeist Beam at +2 vs Lycanroc]{source="Lunala" special=true movePower=100 stab=true effectiveness=1 otherPowerModifier=1.2 combatStages=2 level=57 evs=1 opponentLevel=55 opponentStat=104 healthThreshold=210}
+::::
+- <ins> +4 OR +6: </ins> Psychic
+:::::
+:::::pokemon[Carbink]
+- X-Sp. Atk to +4 / +5 / +6 for the Probopass range (see below)
+- Moongeist Beam
+::::if{source="Lunala" condition="!$lunalaCandy"}
+::damage[Moongeist Beam at +4 vs Carbink]{source="Lunala" special=true movePower=100 stab=true effectiveness=1 otherPowerModifier=1.2 combatStages=4 level=56 evs=1 opponentLevel=54 opponentStat=217 healthThreshold=168}
+::::
+::::if{source="Lunala" condition="$lunalaCandy"}
+::damage[Moongeist Beam at +4 vs Carbink]{source="Lunala" special=true movePower=100 stab=true effectiveness=1 otherPowerModifier=1.2 combatStages=4 level=57 evs=1 opponentLevel=54 opponentStat=217 healthThreshold=168}
+::::
+:::::
+:::::pokemon[Probopass]{info="Moongeist Beam ignores Sturdy" infoColor=gray}
+- Moongeist Beam
+::::if{source="Lunala" condition="!$lunalaCandy"}
+::damage[Moongeist Beam at +4 vs Probopass]{source="Lunala" special=true movePower=100 stab=true effectiveness=1 otherPowerModifier=1.2 combatStages=4 level=56 evs=1 opponentLevel=54 opponentStat=217 healthThreshold=179}
+::damage[Moongeist Beam at +5 vs Probopass]{source="Lunala" special=true movePower=100 stab=true effectiveness=1 otherPowerModifier=1.2 combatStages=5 level=56 evs=1 opponentLevel=54 opponentStat=217 healthThreshold=179}
+::::
+::::if{source="Lunala" condition="$lunalaCandy"}
+::damage[Moongeist Beam at +4 vs Probopass]{source="Lunala" special=true movePower=100 stab=true effectiveness=1 otherPowerModifier=1.2 combatStages=4 level=57 evs=1 opponentLevel=54 opponentStat=217 healthThreshold=179}
+::damage[Moongeist Beam at +5 vs Probopass]{source="Lunala" special=true movePower=100 stab=true effectiveness=1 otherPowerModifier=1.2 combatStages=5 level=57 evs=1 opponentLevel=54 opponentStat=217 healthThreshold=179}
+::::
+:::::
+:::::pokemon[Golem]
+- Moongeist Beam
+:::::
+::::::
+
+- Switch Primarina to the front of the party.
+:::::::
